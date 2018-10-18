@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.1.2 (swiftlang-902.0.54 clang-902.0.39.2)"
+options: "f4700f042f2550f8abe332204f66686a"
+build_time: [1537860802, 300459000]
+inputs:
+  "/Users/mac/Desktop/React-native-projects/check/ios/dummy.swift": [1537276672, 0]

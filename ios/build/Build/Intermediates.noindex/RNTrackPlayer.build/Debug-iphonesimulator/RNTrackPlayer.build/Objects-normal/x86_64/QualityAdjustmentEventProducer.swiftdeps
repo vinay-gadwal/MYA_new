@@ -1,0 +1,399 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "QualityAdjustmentEventProducer"
+provides-nominal:
+- "13RNTrackPlayer30QualityAdjustmentEventProducerC"
+- "13RNTrackPlayer30QualityAdjustmentEventProducerC0cdE0O"
+provides-member:
+- ["13RNTrackPlayer30QualityAdjustmentEventProducerC", ""]
+- ["13RNTrackPlayer30QualityAdjustmentEventProducerC0cdE0O", ""]
+provides-dynamic-lookup:
+- "adjustQualityAfterInterruptionCount"
+- "adjustQualityTimeInternal"
+- "interruptionCount"
+- "startProducingEvents"
+- "stopProducingEvents"
+- "timerTicked"
+depends-top-level:
+- !private "!"
+- !private "&&"
+- "*"
+- !private "-"
+- !private "<"
+- "=="
+- !private ">="
+- "AnyObject"
+- "AssignmentPrecedence"
+- "BooleanLiteralType"
+- "Event"
+- "EventListener"
+- "EventProducer"
+- "NSObject"
+- "QualityAdjustmentEventProducer"
+- "Selector"
+- "TimeInterval"
+- "Timer"
+depends-member:
+- ["s19BinaryFloatingPointP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "QualityAdjustmentEvent"]
+- ["s7CVarArgP", "TimeInterval"]
+- !private ["s7CVarArgP", "Timer"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "adjustQualityAfterInterruptionCount"]
+- !private ["s7CVarArgP", "adjustQualityTimeInternal"]
+- !private ["s7CVarArgP", "checkInterruptionCount"]
+- ["s7CVarArgP", "eventListener"]
+- !private ["s7CVarArgP", "fireDate"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "interruptionCount"]
+- !private ["s7CVarArgP", "invalidate"]
+- !private ["s7CVarArgP", "listening"]
+- !private ["s7CVarArgP", "resetState"]
+- !private ["s7CVarArgP", "scheduledTimer"]
+- ["s7CVarArgP", "startProducingEvents"]
+- ["s7CVarArgP", "stopProducingEvents"]
+- !private ["s7CVarArgP", "timer"]
+- ["s7CVarArgP", "timerTicked"]
+- !private ["s10ComparableP", "addingTimeInterval"]
+- ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "timeIntervalSinceNow"]
+- !private ["s28CustomDebugStringConvertibleP", "QualityAdjustmentEvent"]
+- ["s28CustomDebugStringConvertibleP", "TimeInterval"]
+- !private ["s28CustomDebugStringConvertibleP", "Timer"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addingTimeInterval"]
+- !private ["s28CustomDebugStringConvertibleP", "adjustQualityAfterInterruptionCount"]
+- !private ["s28CustomDebugStringConvertibleP", "adjustQualityTimeInternal"]
+- !private ["s28CustomDebugStringConvertibleP", "checkInterruptionCount"]
+- ["s28CustomDebugStringConvertibleP", "eventListener"]
+- !private ["s28CustomDebugStringConvertibleP", "fireDate"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "interruptionCount"]
+- !private ["s28CustomDebugStringConvertibleP", "invalidate"]
+- !private ["s28CustomDebugStringConvertibleP", "listening"]
+- !private ["s28CustomDebugStringConvertibleP", "resetState"]
+- !private ["s28CustomDebugStringConvertibleP", "scheduledTimer"]
+- ["s28CustomDebugStringConvertibleP", "startProducingEvents"]
+- ["s28CustomDebugStringConvertibleP", "stopProducingEvents"]
+- !private ["s28CustomDebugStringConvertibleP", "timeIntervalSinceNow"]
+- !private ["s28CustomDebugStringConvertibleP", "timer"]
+- ["s28CustomDebugStringConvertibleP", "timerTicked"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "addingTimeInterval"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "timeIntervalSinceNow"]
+- ["s17CustomReflectableP", "QualityAdjustmentEventProducer"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "addingTimeInterval"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "timeIntervalSinceNow"]
+- !private ["s17CustomReflectableP", "timerTicked"]
+- !private ["s23CustomStringConvertibleP", "QualityAdjustmentEvent"]
+- ["s23CustomStringConvertibleP", "QualityAdjustmentEventProducer"]
+- ["s23CustomStringConvertibleP", "TimeInterval"]
+- !private ["s23CustomStringConvertibleP", "Timer"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "addingTimeInterval"]
+- !private ["s23CustomStringConvertibleP", "adjustQualityAfterInterruptionCount"]
+- !private ["s23CustomStringConvertibleP", "adjustQualityTimeInternal"]
+- !private ["s23CustomStringConvertibleP", "checkInterruptionCount"]
+- ["s23CustomStringConvertibleP", "eventListener"]
+- !private ["s23CustomStringConvertibleP", "fireDate"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "interruptionCount"]
+- !private ["s23CustomStringConvertibleP", "invalidate"]
+- !private ["s23CustomStringConvertibleP", "listening"]
+- !private ["s23CustomStringConvertibleP", "resetState"]
+- !private ["s23CustomStringConvertibleP", "scheduledTimer"]
+- ["s23CustomStringConvertibleP", "startProducingEvents"]
+- ["s23CustomStringConvertibleP", "stopProducingEvents"]
+- !private ["s23CustomStringConvertibleP", "timeIntervalSinceNow"]
+- !private ["s23CustomStringConvertibleP", "timer"]
+- ["s23CustomStringConvertibleP", "timerTicked"]
+- !private ["10Foundation4DateV", "addingTimeInterval"]
+- !private ["10Foundation4DateV", "timeIntervalSinceNow"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "addingTimeInterval"]
+- ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "timeIntervalSinceNow"]
+- ["Sd", "init"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "addingTimeInterval"]
+- ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "timeIntervalSinceNow"]
+- !private ["s9EquatableP", "QualityAdjustmentEvent"]
+- ["s9EquatableP", "QualityAdjustmentEventProducer"]
+- ["s9EquatableP", "TimeInterval"]
+- !private ["s9EquatableP", "Timer"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "addingTimeInterval"]
+- !private ["s9EquatableP", "adjustQualityAfterInterruptionCount"]
+- !private ["s9EquatableP", "adjustQualityTimeInternal"]
+- !private ["s9EquatableP", "checkInterruptionCount"]
+- ["s9EquatableP", "eventListener"]
+- !private ["s9EquatableP", "fireDate"]
+- !private ["s9EquatableP", "goDown"]
+- !private ["s9EquatableP", "goUp"]
+- ["s9EquatableP", "hashValue"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "interruptionCount"]
+- !private ["s9EquatableP", "invalidate"]
+- !private ["s9EquatableP", "listening"]
+- !private ["s9EquatableP", "resetState"]
+- !private ["s9EquatableP", "scheduledTimer"]
+- ["s9EquatableP", "startProducingEvents"]
+- ["s9EquatableP", "stopProducingEvents"]
+- !private ["s9EquatableP", "timeIntervalSinceNow"]
+- !private ["s9EquatableP", "timer"]
+- ["s9EquatableP", "timerTicked"]
+- ["13RNTrackPlayer5EventP", ""]
+- !private ["13RNTrackPlayer5EventP", "goDown"]
+- !private ["13RNTrackPlayer5EventP", "goUp"]
+- ["13RNTrackPlayer5EventP", "hashValue"]
+- !private ["13RNTrackPlayer13EventListenerP", "onEvent"]
+- !private ["13RNTrackPlayer13EventProducerP", "QualityAdjustmentEvent"]
+- ["13RNTrackPlayer13EventProducerP", "TimeInterval"]
+- !private ["13RNTrackPlayer13EventProducerP", "Timer"]
+- ["13RNTrackPlayer13EventProducerP", ""]
+- !private ["13RNTrackPlayer13EventProducerP", "adjustQualityAfterInterruptionCount"]
+- !private ["13RNTrackPlayer13EventProducerP", "adjustQualityTimeInternal"]
+- !private ["13RNTrackPlayer13EventProducerP", "checkInterruptionCount"]
+- ["13RNTrackPlayer13EventProducerP", "eventListener"]
+- !private ["13RNTrackPlayer13EventProducerP", "interruptionCount"]
+- !private ["13RNTrackPlayer13EventProducerP", "listening"]
+- !private ["13RNTrackPlayer13EventProducerP", "resetState"]
+- ["13RNTrackPlayer13EventProducerP", "startProducingEvents"]
+- ["13RNTrackPlayer13EventProducerP", "stopProducingEvents"]
+- !private ["13RNTrackPlayer13EventProducerP", "timer"]
+- ["13RNTrackPlayer13EventProducerP", "timerTicked"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "QualityAdjustmentEventProducer"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "timerTicked"]
+- ["s25ExpressibleByFloatLiteralP", "init"]
+- ["s27ExpressibleByIntegerLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "QualityAdjustmentEventProducer"]
+- !private ["s26ExpressibleByStringLiteralP", "timerTicked"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "QualityAdjustmentEventProducer"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "timerTicked"]
+- ["s13FloatingPointP", "init"]
+- !private ["s8HashableP", "QualityAdjustmentEvent"]
+- ["s8HashableP", "QualityAdjustmentEventProducer"]
+- ["s8HashableP", "TimeInterval"]
+- !private ["s8HashableP", "Timer"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "addingTimeInterval"]
+- !private ["s8HashableP", "adjustQualityAfterInterruptionCount"]
+- !private ["s8HashableP", "adjustQualityTimeInternal"]
+- !private ["s8HashableP", "checkInterruptionCount"]
+- ["s8HashableP", "eventListener"]
+- !private ["s8HashableP", "fireDate"]
+- !private ["s8HashableP", "goDown"]
+- !private ["s8HashableP", "goUp"]
+- ["s8HashableP", "hashValue"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "interruptionCount"]
+- !private ["s8HashableP", "invalidate"]
+- !private ["s8HashableP", "listening"]
+- !private ["s8HashableP", "resetState"]
+- !private ["s8HashableP", "scheduledTimer"]
+- ["s8HashableP", "startProducingEvents"]
+- ["s8HashableP", "stopProducingEvents"]
+- !private ["s8HashableP", "timeIntervalSinceNow"]
+- !private ["s8HashableP", "timer"]
+- ["s8HashableP", "timerTicked"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["So8NSObjectC", "AnyObject"]
+- ["So8NSObjectC", "Event"]
+- ["So8NSObjectC", "EventListener"]
+- !private ["So8NSObjectC", "QualityAdjustmentEvent"]
+- ["So8NSObjectC", "TimeInterval"]
+- ["So8NSObjectC", "Timer"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "adjustQualityAfterInterruptionCount"]
+- ["So8NSObjectC", "adjustQualityTimeInternal"]
+- ["So8NSObjectC", "checkInterruptionCount"]
+- ["So8NSObjectC", "eventListener"]
+- !private ["So8NSObjectC", "fireDate"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "interruptionCount"]
+- !private ["So8NSObjectC", "invalidate"]
+- ["So8NSObjectC", "listening"]
+- ["So8NSObjectC", "resetState"]
+- !private ["So8NSObjectC", "scheduledTimer"]
+- ["So8NSObjectC", "startProducingEvents"]
+- ["So8NSObjectC", "stopProducingEvents"]
+- ["So8NSObjectC", "timer"]
+- ["So8NSObjectC", "timerTicked"]
+- !private ["So16NSObjectProtocolP", "QualityAdjustmentEvent"]
+- ["So16NSObjectProtocolP", "TimeInterval"]
+- !private ["So16NSObjectProtocolP", "Timer"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "adjustQualityAfterInterruptionCount"]
+- !private ["So16NSObjectProtocolP", "adjustQualityTimeInternal"]
+- !private ["So16NSObjectProtocolP", "checkInterruptionCount"]
+- ["So16NSObjectProtocolP", "eventListener"]
+- !private ["So16NSObjectProtocolP", "fireDate"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "interruptionCount"]
+- !private ["So16NSObjectProtocolP", "invalidate"]
+- !private ["So16NSObjectProtocolP", "listening"]
+- !private ["So16NSObjectProtocolP", "resetState"]
+- !private ["So16NSObjectProtocolP", "scheduledTimer"]
+- ["So16NSObjectProtocolP", "startProducingEvents"]
+- ["So16NSObjectProtocolP", "stopProducingEvents"]
+- !private ["So16NSObjectProtocolP", "timer"]
+- ["So16NSObjectProtocolP", "timerTicked"]
+- ["s7NumericP", "init"]
+- ["13RNTrackPlayer30QualityAdjustmentEventProducerC0cdE0O", "__derived_enum_equals"]
+- ["13RNTrackPlayer30QualityAdjustmentEventProducerC0cdE0O", "deinit"]
+- ["13RNTrackPlayer30QualityAdjustmentEventProducerC0cdE0O", "goDown"]
+- ["13RNTrackPlayer30QualityAdjustmentEventProducerC0cdE0O", "goUp"]
+- ["13RNTrackPlayer30QualityAdjustmentEventProducerC0cdE0O", "hashValue"]
+- ["13RNTrackPlayer30QualityAdjustmentEventProducerC", "AnyObject"]
+- ["13RNTrackPlayer30QualityAdjustmentEventProducerC", "Event"]
+- ["13RNTrackPlayer30QualityAdjustmentEventProducerC", "EventListener"]
+- ["13RNTrackPlayer30QualityAdjustmentEventProducerC", "QualityAdjustmentEvent"]
+- ["13RNTrackPlayer30QualityAdjustmentEventProducerC", "TimeInterval"]
+- ["13RNTrackPlayer30QualityAdjustmentEventProducerC", "Timer"]
+- ["13RNTrackPlayer30QualityAdjustmentEventProducerC", "adjustQualityAfterInterruptionCount"]
+- ["13RNTrackPlayer30QualityAdjustmentEventProducerC", "adjustQualityTimeInternal"]
+- !private ["13RNTrackPlayer30QualityAdjustmentEventProducerC", "checkInterruptionCount"]
+- ["13RNTrackPlayer30QualityAdjustmentEventProducerC", "deinit"]
+- ["13RNTrackPlayer30QualityAdjustmentEventProducerC", "eventListener"]
+- ["13RNTrackPlayer30QualityAdjustmentEventProducerC", "init"]
+- ["13RNTrackPlayer30QualityAdjustmentEventProducerC", "interruptionCount"]
+- !private ["13RNTrackPlayer30QualityAdjustmentEventProducerC", "listening"]
+- !private ["13RNTrackPlayer30QualityAdjustmentEventProducerC", "resetState"]
+- ["13RNTrackPlayer30QualityAdjustmentEventProducerC", "startProducingEvents"]
+- ["13RNTrackPlayer30QualityAdjustmentEventProducerC", "stopProducingEvents"]
+- !private ["13RNTrackPlayer30QualityAdjustmentEventProducerC", "timer"]
+- ["13RNTrackPlayer30QualityAdjustmentEventProducerC", "timerTicked"]
+- !private ["10Foundation20ReferenceConvertibleP", "addingTimeInterval"]
+- !private ["10Foundation20ReferenceConvertibleP", "timeIntervalSinceNow"]
+- ["10ObjectiveC8SelectorV", "QualityAdjustmentEventProducer"]
+- !private ["10ObjectiveC8SelectorV", "timerTicked"]
+- ["s13SignedNumericP", "init"]
+- ["s10StrideableP", "init"]
+- !private ["So5TimerC", "fireDate"]
+- !private ["So5TimerC", "invalidate"]
+- !private ["So5TimerC", "scheduledTimer"]
+- ["s15_CVarArgAlignedP", "init"]
+- ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "QualityAdjustmentEvent"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "TimeInterval"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Timer"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "adjustQualityAfterInterruptionCount"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "adjustQualityTimeInternal"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "checkInterruptionCount"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "eventListener"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fireDate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "interruptionCount"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "invalidate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "listening"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "resetState"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "scheduledTimer"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "startProducingEvents"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "stopProducingEvents"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "timer"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "timerTicked"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "addingTimeInterval"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "timeIntervalSinceNow"]
+depends-nominal:
+- "s19BinaryFloatingPointP"
+- !private "Sb"
+- "s7CVarArgP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation4DateV"
+- "s9DecodableP"
+- "Sd"
+- "s9EncodableP"
+- "s9EquatableP"
+- "13RNTrackPlayer5EventP"
+- !private "13RNTrackPlayer13EventListenerP"
+- "13RNTrackPlayer13EventProducerP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s25ExpressibleByFloatLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "s13FloatingPointP"
+- "s8HashableP"
+- "s25LosslessStringConvertibleP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "s7NumericP"
+- "13RNTrackPlayer30QualityAdjustmentEventProducerC0cdE0O"
+- "13RNTrackPlayer30QualityAdjustmentEventProducerC"
+- !private "10Foundation20ReferenceConvertibleP"
+- "10ObjectiveC8SelectorV"
+- "s13SignedNumericP"
+- "s10StrideableP"
+- !private "So5TimerC"
+- "s15_CVarArgAlignedP"
+- "s22_CVarArgPassedAsDoubleP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s33_ExpressibleByBuiltinFloatLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MediaPlayer.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/mac/Desktop/React-native-projects/check/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h"
+- "/Users/mac/Desktop/React-native-projects/check/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h"
+- "/Users/mac/Desktop/React-native-projects/check/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h"
+- "/Users/mac/Desktop/React-native-projects/check/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h"
+- "/Users/mac/Desktop/React-native-projects/check/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h"
+- "/Users/mac/Desktop/React-native-projects/check/node_modules/react-native-track-player/ios/RNTrackPlayer/Support/RNTrackPlayer-Bridging-Header.h"
+- "/Users/mac/Desktop/React-native-projects/check/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h"
+- "/Users/mac/Desktop/React-native-projects/check/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTEventEmitter.h"
+- "/Users/mac/Desktop/React-native-projects/check/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/MediaPlayer.framework/Headers/MediaPlayer.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+interface-hash: "085f5d02bf4e329e9f5a59608c2769ce"

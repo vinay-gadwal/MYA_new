@@ -1,0 +1,233 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["So22MPNowPlayingInfoCenterC", ""]
+- ["So22MPNowPlayingInfoCenterC", "ap_update"]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "Float"
+- !private "MPMediaItemPropertyAlbumTitle"
+- !private "MPMediaItemPropertyArtist"
+- !private "MPMediaItemPropertyArtwork"
+- !private "MPMediaItemPropertyPlaybackDuration"
+- !private "MPMediaItemPropertyTitle"
+- "MPNowPlayingInfoCenter"
+- !private "MPNowPlayingInfoPropertyElapsedPlaybackTime"
+- !private "MPNowPlayingInfoPropertyPlaybackRate"
+- !private "String"
+- "TimeInterval"
+- "Track"
+depends-member:
+- !private ["s7CVarArgP", "MPMediaItemPropertyAlbumTitle"]
+- !private ["s7CVarArgP", "MPMediaItemPropertyArtist"]
+- !private ["s7CVarArgP", "MPMediaItemPropertyArtwork"]
+- !private ["s7CVarArgP", "MPMediaItemPropertyPlaybackDuration"]
+- !private ["s7CVarArgP", "MPMediaItemPropertyTitle"]
+- !private ["s7CVarArgP", "MPNowPlayingInfoPropertyElapsedPlaybackTime"]
+- !private ["s7CVarArgP", "MPNowPlayingInfoPropertyPlaybackRate"]
+- !private ["s7CVarArgP", "String"]
+- !private ["s7CVarArgP", "album"]
+- !private ["s7CVarArgP", "artist"]
+- !private ["s7CVarArgP", "artwork"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "nowPlayingInfo"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "title"]
+- !private ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "MPMediaItemPropertyAlbumTitle"]
+- !private ["s28CustomDebugStringConvertibleP", "MPMediaItemPropertyArtist"]
+- !private ["s28CustomDebugStringConvertibleP", "MPMediaItemPropertyArtwork"]
+- !private ["s28CustomDebugStringConvertibleP", "MPMediaItemPropertyPlaybackDuration"]
+- !private ["s28CustomDebugStringConvertibleP", "MPMediaItemPropertyTitle"]
+- !private ["s28CustomDebugStringConvertibleP", "MPNowPlayingInfoPropertyElapsedPlaybackTime"]
+- !private ["s28CustomDebugStringConvertibleP", "MPNowPlayingInfoPropertyPlaybackRate"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- !private ["s28CustomDebugStringConvertibleP", "album"]
+- !private ["s28CustomDebugStringConvertibleP", "artist"]
+- !private ["s28CustomDebugStringConvertibleP", "artwork"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "nowPlayingInfo"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "title"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "MPMediaItemPropertyAlbumTitle"]
+- !private ["s23CustomStringConvertibleP", "MPMediaItemPropertyArtist"]
+- !private ["s23CustomStringConvertibleP", "MPMediaItemPropertyArtwork"]
+- !private ["s23CustomStringConvertibleP", "MPMediaItemPropertyPlaybackDuration"]
+- !private ["s23CustomStringConvertibleP", "MPMediaItemPropertyTitle"]
+- !private ["s23CustomStringConvertibleP", "MPNowPlayingInfoPropertyElapsedPlaybackTime"]
+- !private ["s23CustomStringConvertibleP", "MPNowPlayingInfoPropertyPlaybackRate"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- !private ["s23CustomStringConvertibleP", "album"]
+- !private ["s23CustomStringConvertibleP", "artist"]
+- !private ["s23CustomStringConvertibleP", "artwork"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "nowPlayingInfo"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "title"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s10DictionaryV", "init"]
+- !private ["s10DictionaryV", "subscript"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EquatableP", "MPMediaItemPropertyAlbumTitle"]
+- !private ["s9EquatableP", "MPMediaItemPropertyArtist"]
+- !private ["s9EquatableP", "MPMediaItemPropertyArtwork"]
+- !private ["s9EquatableP", "MPMediaItemPropertyPlaybackDuration"]
+- !private ["s9EquatableP", "MPMediaItemPropertyTitle"]
+- !private ["s9EquatableP", "MPNowPlayingInfoPropertyElapsedPlaybackTime"]
+- !private ["s9EquatableP", "MPNowPlayingInfoPropertyPlaybackRate"]
+- !private ["s9EquatableP", "String"]
+- !private ["s9EquatableP", "album"]
+- !private ["s9EquatableP", "artist"]
+- !private ["s9EquatableP", "artwork"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "nowPlayingInfo"]
+- !private ["s9EquatableP", "subscript"]
+- !private ["s9EquatableP", "title"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s8HashableP", "MPMediaItemPropertyAlbumTitle"]
+- !private ["s8HashableP", "MPMediaItemPropertyArtist"]
+- !private ["s8HashableP", "MPMediaItemPropertyArtwork"]
+- !private ["s8HashableP", "MPMediaItemPropertyPlaybackDuration"]
+- !private ["s8HashableP", "MPMediaItemPropertyTitle"]
+- !private ["s8HashableP", "MPNowPlayingInfoPropertyElapsedPlaybackTime"]
+- !private ["s8HashableP", "MPNowPlayingInfoPropertyPlaybackRate"]
+- !private ["s8HashableP", "String"]
+- !private ["s8HashableP", "album"]
+- !private ["s8HashableP", "artist"]
+- !private ["s8HashableP", "artwork"]
+- !private ["s8HashableP", "nowPlayingInfo"]
+- !private ["s8HashableP", "title"]
+- ["So22MPNowPlayingInfoCenterC", "Float"]
+- !private ["So22MPNowPlayingInfoCenterC", "MPMediaItemPropertyAlbumTitle"]
+- !private ["So22MPNowPlayingInfoCenterC", "MPMediaItemPropertyArtist"]
+- !private ["So22MPNowPlayingInfoCenterC", "MPMediaItemPropertyArtwork"]
+- !private ["So22MPNowPlayingInfoCenterC", "MPMediaItemPropertyPlaybackDuration"]
+- !private ["So22MPNowPlayingInfoCenterC", "MPMediaItemPropertyTitle"]
+- !private ["So22MPNowPlayingInfoCenterC", "MPNowPlayingInfoPropertyElapsedPlaybackTime"]
+- !private ["So22MPNowPlayingInfoCenterC", "MPNowPlayingInfoPropertyPlaybackRate"]
+- !private ["So22MPNowPlayingInfoCenterC", "String"]
+- ["So22MPNowPlayingInfoCenterC", "TimeInterval"]
+- ["So22MPNowPlayingInfoCenterC", "Track"]
+- ["So22MPNowPlayingInfoCenterC", "ap_update"]
+- !private ["So22MPNowPlayingInfoCenterC", "nowPlayingInfo"]
+- ["So8NSObjectC", "Float"]
+- !private ["So8NSObjectC", "MPMediaItemPropertyAlbumTitle"]
+- !private ["So8NSObjectC", "MPMediaItemPropertyArtist"]
+- !private ["So8NSObjectC", "MPMediaItemPropertyArtwork"]
+- !private ["So8NSObjectC", "MPMediaItemPropertyPlaybackDuration"]
+- !private ["So8NSObjectC", "MPMediaItemPropertyTitle"]
+- !private ["So8NSObjectC", "MPNowPlayingInfoPropertyElapsedPlaybackTime"]
+- !private ["So8NSObjectC", "MPNowPlayingInfoPropertyPlaybackRate"]
+- !private ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "TimeInterval"]
+- ["So8NSObjectC", "Track"]
+- !private ["So8NSObjectC", "album"]
+- ["So8NSObjectC", "ap_update"]
+- !private ["So8NSObjectC", "artist"]
+- !private ["So8NSObjectC", "artwork"]
+- !private ["So8NSObjectC", "nowPlayingInfo"]
+- !private ["So8NSObjectC", "title"]
+- !private ["So16NSObjectProtocolP", "MPMediaItemPropertyAlbumTitle"]
+- !private ["So16NSObjectProtocolP", "MPMediaItemPropertyArtist"]
+- !private ["So16NSObjectProtocolP", "MPMediaItemPropertyArtwork"]
+- !private ["So16NSObjectProtocolP", "MPMediaItemPropertyPlaybackDuration"]
+- !private ["So16NSObjectProtocolP", "MPMediaItemPropertyTitle"]
+- !private ["So16NSObjectProtocolP", "MPNowPlayingInfoPropertyElapsedPlaybackTime"]
+- !private ["So16NSObjectProtocolP", "MPNowPlayingInfoPropertyPlaybackRate"]
+- !private ["So16NSObjectProtocolP", "String"]
+- !private ["So16NSObjectProtocolP", "album"]
+- !private ["So16NSObjectProtocolP", "artist"]
+- !private ["So16NSObjectProtocolP", "artwork"]
+- !private ["So16NSObjectProtocolP", "nowPlayingInfo"]
+- !private ["So16NSObjectProtocolP", "title"]
+- !private ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["13RNTrackPlayer5TrackC", "album"]
+- !private ["13RNTrackPlayer5TrackC", "artist"]
+- !private ["13RNTrackPlayer5TrackC", "artwork"]
+- !private ["13RNTrackPlayer5TrackC", "title"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MPMediaItemPropertyAlbumTitle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MPMediaItemPropertyArtist"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MPMediaItemPropertyArtwork"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MPMediaItemPropertyPlaybackDuration"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MPMediaItemPropertyTitle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MPNowPlayingInfoPropertyElapsedPlaybackTime"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MPNowPlayingInfoPropertyPlaybackRate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "album"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "artist"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "artwork"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "nowPlayingInfo"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "title"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s10DictionaryV"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s8HashableP"
+- "So22MPNowPlayingInfoCenterC"
+- "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "s8SequenceP"
+- !private "13RNTrackPlayer5TrackC"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MediaPlayer.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/mac/Desktop/React-native-projects/check/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h"
+- "/Users/mac/Desktop/React-native-projects/check/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h"
+- "/Users/mac/Desktop/React-native-projects/check/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h"
+- "/Users/mac/Desktop/React-native-projects/check/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h"
+- "/Users/mac/Desktop/React-native-projects/check/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h"
+- "/Users/mac/Desktop/React-native-projects/check/node_modules/react-native-track-player/ios/RNTrackPlayer/Support/RNTrackPlayer-Bridging-Header.h"
+- "/Users/mac/Desktop/React-native-projects/check/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h"
+- "/Users/mac/Desktop/React-native-projects/check/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTEventEmitter.h"
+- "/Users/mac/Desktop/React-native-projects/check/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/MediaPlayer.framework/Headers/MediaPlayer.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+interface-hash: "ad5b5d6adfd74d98b7081942eb2eae77"

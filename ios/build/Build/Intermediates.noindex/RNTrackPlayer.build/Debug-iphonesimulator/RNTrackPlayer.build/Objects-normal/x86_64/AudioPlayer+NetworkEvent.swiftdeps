@@ -1,0 +1,313 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["13RNTrackPlayer05AudioB0C", ""]
+- ["13RNTrackPlayer05AudioB0C", "handleNetworkEvent"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "&&"
+- !private "+="
+- !private "<"
+- !private "=="
+- "AssignmentPrecedence"
+- "AudioPlayer"
+- !private "BooleanLiteralType"
+- "EventProducer"
+- "NetworkEventProducer"
+depends-member:
+- !private ["So8AVPlayerC", "currentItem"]
+- !private ["So12AVPlayerItemC", "isPlaybackBufferEmpty"]
+- ["13RNTrackPlayer05AudioB0C", "EventProducer"]
+- ["13RNTrackPlayer05AudioB0C", "NetworkEventProducer"]
+- !private ["13RNTrackPlayer05AudioB0C", "backgroundHandler"]
+- !private ["13RNTrackPlayer05AudioB0C", "currentItem"]
+- ["13RNTrackPlayer05AudioB0C", "handleNetworkEvent"]
+- !private ["13RNTrackPlayer05AudioB0C", "maximumConnectionLossTime"]
+- !private ["13RNTrackPlayer05AudioB0C", "networkEventProducer"]
+- !private ["13RNTrackPlayer05AudioB0C", "player"]
+- !private ["13RNTrackPlayer05AudioB0C", "qualityAdjustmentEventProducer"]
+- !private ["13RNTrackPlayer05AudioB0C", "resumeAfterConnectionLoss"]
+- !private ["13RNTrackPlayer05AudioB0C", "retryOrPlayNext"]
+- !private ["13RNTrackPlayer05AudioB0C", "state"]
+- !private ["13RNTrackPlayer05AudioB0C", "stateWhenConnectionLost"]
+- !private ["13RNTrackPlayer05AudioB5StateO", "isStopped"]
+- !private ["13RNTrackPlayer05AudioB5StateO", "isWaitingForConnection"]
+- ["13RNTrackPlayer05AudioB5StateO", "playing"]
+- !private ["13RNTrackPlayer05AudioB5StateO", "waitingForConnection"]
+- !private ["13RNTrackPlayer17BackgroundHandlerC", "beginBackgroundTask"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["s7CVarArgP", "NetworkEvent"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "backgroundHandler"]
+- !private ["s7CVarArgP", "beginBackgroundTask"]
+- !private ["s7CVarArgP", "connectionLossDate"]
+- !private ["s7CVarArgP", "currentItem"]
+- !private ["s7CVarArgP", "interruptionCount"]
+- !private ["s7CVarArgP", "isPlaybackBufferEmpty"]
+- !private ["s7CVarArgP", "maximumConnectionLossTime"]
+- !private ["s7CVarArgP", "networkEventProducer"]
+- !private ["s7CVarArgP", "player"]
+- !private ["s7CVarArgP", "qualityAdjustmentEventProducer"]
+- !private ["s7CVarArgP", "resumeAfterConnectionLoss"]
+- !private ["s7CVarArgP", "retryOrPlayNext"]
+- !private ["s7CVarArgP", "state"]
+- !private ["s7CVarArgP", "stateWhenConnectionLost"]
+- !private ["s7CVarArgP", "timeIntervalSinceNow"]
+- !private ["s7CVarArgP", "url"]
+- ["s28CustomDebugStringConvertibleP", "NetworkEvent"]
+- !private ["s28CustomDebugStringConvertibleP", "backgroundHandler"]
+- !private ["s28CustomDebugStringConvertibleP", "beginBackgroundTask"]
+- !private ["s28CustomDebugStringConvertibleP", "connectionLossDate"]
+- !private ["s28CustomDebugStringConvertibleP", "currentItem"]
+- !private ["s28CustomDebugStringConvertibleP", "interruptionCount"]
+- !private ["s28CustomDebugStringConvertibleP", "isPlaybackBufferEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "maximumConnectionLossTime"]
+- !private ["s28CustomDebugStringConvertibleP", "networkEventProducer"]
+- !private ["s28CustomDebugStringConvertibleP", "player"]
+- !private ["s28CustomDebugStringConvertibleP", "qualityAdjustmentEventProducer"]
+- !private ["s28CustomDebugStringConvertibleP", "resumeAfterConnectionLoss"]
+- !private ["s28CustomDebugStringConvertibleP", "retryOrPlayNext"]
+- !private ["s28CustomDebugStringConvertibleP", "state"]
+- !private ["s28CustomDebugStringConvertibleP", "stateWhenConnectionLost"]
+- !private ["s28CustomDebugStringConvertibleP", "timeIntervalSinceNow"]
+- !private ["s28CustomDebugStringConvertibleP", "url"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "timeIntervalSinceNow"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- ["s23CustomStringConvertibleP", "NetworkEvent"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "backgroundHandler"]
+- !private ["s23CustomStringConvertibleP", "beginBackgroundTask"]
+- !private ["s23CustomStringConvertibleP", "connectionLossDate"]
+- !private ["s23CustomStringConvertibleP", "currentItem"]
+- !private ["s23CustomStringConvertibleP", "interruptionCount"]
+- !private ["s23CustomStringConvertibleP", "isPlaybackBufferEmpty"]
+- !private ["s23CustomStringConvertibleP", "maximumConnectionLossTime"]
+- !private ["s23CustomStringConvertibleP", "networkEventProducer"]
+- !private ["s23CustomStringConvertibleP", "player"]
+- !private ["s23CustomStringConvertibleP", "qualityAdjustmentEventProducer"]
+- !private ["s23CustomStringConvertibleP", "resumeAfterConnectionLoss"]
+- !private ["s23CustomStringConvertibleP", "retryOrPlayNext"]
+- !private ["s23CustomStringConvertibleP", "state"]
+- !private ["s23CustomStringConvertibleP", "stateWhenConnectionLost"]
+- !private ["s23CustomStringConvertibleP", "timeIntervalSinceNow"]
+- !private ["s23CustomStringConvertibleP", "url"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- ["s9EquatableP", "NetworkEvent"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "backgroundHandler"]
+- !private ["s9EquatableP", "beginBackgroundTask"]
+- !private ["s9EquatableP", "connectionLossDate"]
+- ["s9EquatableP", "connectionLost"]
+- ["s9EquatableP", "connectionRetrieved"]
+- !private ["s9EquatableP", "currentItem"]
+- !private ["s9EquatableP", "interruptionCount"]
+- !private ["s9EquatableP", "isPlaybackBufferEmpty"]
+- !private ["s9EquatableP", "isStopped"]
+- !private ["s9EquatableP", "isWaitingForConnection"]
+- !private ["s9EquatableP", "maximumConnectionLossTime"]
+- ["s9EquatableP", "networkChanged"]
+- !private ["s9EquatableP", "networkEventProducer"]
+- !private ["s9EquatableP", "player"]
+- ["s9EquatableP", "playing"]
+- !private ["s9EquatableP", "qualityAdjustmentEventProducer"]
+- !private ["s9EquatableP", "resumeAfterConnectionLoss"]
+- !private ["s9EquatableP", "retryOrPlayNext"]
+- !private ["s9EquatableP", "state"]
+- !private ["s9EquatableP", "stateWhenConnectionLost"]
+- !private ["s9EquatableP", "timeIntervalSinceNow"]
+- !private ["s9EquatableP", "url"]
+- !private ["s9EquatableP", "waitingForConnection"]
+- ["13RNTrackPlayer5EventP", "connectionLost"]
+- ["13RNTrackPlayer5EventP", "connectionRetrieved"]
+- ["13RNTrackPlayer5EventP", "networkChanged"]
+- !private ["13RNTrackPlayer13EventListenerP", "backgroundHandler"]
+- !private ["13RNTrackPlayer13EventListenerP", "currentItem"]
+- !private ["13RNTrackPlayer13EventListenerP", "maximumConnectionLossTime"]
+- !private ["13RNTrackPlayer13EventListenerP", "networkEventProducer"]
+- !private ["13RNTrackPlayer13EventListenerP", "player"]
+- !private ["13RNTrackPlayer13EventListenerP", "qualityAdjustmentEventProducer"]
+- !private ["13RNTrackPlayer13EventListenerP", "resumeAfterConnectionLoss"]
+- !private ["13RNTrackPlayer13EventListenerP", "retryOrPlayNext"]
+- !private ["13RNTrackPlayer13EventListenerP", "state"]
+- !private ["13RNTrackPlayer13EventListenerP", "stateWhenConnectionLost"]
+- ["13RNTrackPlayer13EventProducerP", "NetworkEvent"]
+- !private ["13RNTrackPlayer13EventProducerP", "connectionLossDate"]
+- !private ["13RNTrackPlayer13EventProducerP", "interruptionCount"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s8HashableP", "NetworkEvent"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "backgroundHandler"]
+- !private ["s8HashableP", "beginBackgroundTask"]
+- !private ["s8HashableP", "connectionLossDate"]
+- ["s8HashableP", "connectionLost"]
+- ["s8HashableP", "connectionRetrieved"]
+- !private ["s8HashableP", "currentItem"]
+- !private ["s8HashableP", "interruptionCount"]
+- !private ["s8HashableP", "isPlaybackBufferEmpty"]
+- !private ["s8HashableP", "maximumConnectionLossTime"]
+- ["s8HashableP", "networkChanged"]
+- !private ["s8HashableP", "networkEventProducer"]
+- !private ["s8HashableP", "player"]
+- !private ["s8HashableP", "qualityAdjustmentEventProducer"]
+- !private ["s8HashableP", "resumeAfterConnectionLoss"]
+- !private ["s8HashableP", "retryOrPlayNext"]
+- !private ["s8HashableP", "state"]
+- !private ["s8HashableP", "stateWhenConnectionLost"]
+- !private ["s8HashableP", "timeIntervalSinceNow"]
+- !private ["s8HashableP", "url"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["13RNTrackPlayer8MediaURLV", "isLocal"]
+- !private ["So8NSCodingP", "timeIntervalSinceNow"]
+- !private ["So9NSCopyingP", "isPlaybackBufferEmpty"]
+- !private ["So9NSCopyingP", "timeIntervalSinceNow"]
+- !private ["So6NSDateC", "timeIntervalSinceNow"]
+- ["So8NSObjectC", "EventProducer"]
+- ["So8NSObjectC", "NetworkEvent"]
+- ["So8NSObjectC", "NetworkEventProducer"]
+- !private ["So8NSObjectC", "backgroundHandler"]
+- !private ["So8NSObjectC", "beginBackgroundTask"]
+- !private ["So8NSObjectC", "connectionLossDate"]
+- !private ["So8NSObjectC", "currentItem"]
+- ["So8NSObjectC", "handleNetworkEvent"]
+- !private ["So8NSObjectC", "interruptionCount"]
+- !private ["So8NSObjectC", "isPlaybackBufferEmpty"]
+- !private ["So8NSObjectC", "maximumConnectionLossTime"]
+- !private ["So8NSObjectC", "networkEventProducer"]
+- !private ["So8NSObjectC", "player"]
+- !private ["So8NSObjectC", "qualityAdjustmentEventProducer"]
+- !private ["So8NSObjectC", "resumeAfterConnectionLoss"]
+- !private ["So8NSObjectC", "retryOrPlayNext"]
+- !private ["So8NSObjectC", "state"]
+- !private ["So8NSObjectC", "stateWhenConnectionLost"]
+- !private ["So8NSObjectC", "timeIntervalSinceNow"]
+- !private ["So8NSObjectC", "url"]
+- ["So16NSObjectProtocolP", "NetworkEvent"]
+- !private ["So16NSObjectProtocolP", "backgroundHandler"]
+- !private ["So16NSObjectProtocolP", "beginBackgroundTask"]
+- !private ["So16NSObjectProtocolP", "connectionLossDate"]
+- !private ["So16NSObjectProtocolP", "currentItem"]
+- !private ["So16NSObjectProtocolP", "interruptionCount"]
+- !private ["So16NSObjectProtocolP", "isPlaybackBufferEmpty"]
+- !private ["So16NSObjectProtocolP", "maximumConnectionLossTime"]
+- !private ["So16NSObjectProtocolP", "networkEventProducer"]
+- !private ["So16NSObjectProtocolP", "player"]
+- !private ["So16NSObjectProtocolP", "qualityAdjustmentEventProducer"]
+- !private ["So16NSObjectProtocolP", "resumeAfterConnectionLoss"]
+- !private ["So16NSObjectProtocolP", "retryOrPlayNext"]
+- !private ["So16NSObjectProtocolP", "state"]
+- !private ["So16NSObjectProtocolP", "stateWhenConnectionLost"]
+- !private ["So16NSObjectProtocolP", "timeIntervalSinceNow"]
+- !private ["So16NSObjectProtocolP", "url"]
+- !private ["So14NSSecureCodingP", "timeIntervalSinceNow"]
+- ["13RNTrackPlayer20NetworkEventProducerC0cD0O", "connectionLost"]
+- ["13RNTrackPlayer20NetworkEventProducerC0cD0O", "connectionRetrieved"]
+- ["13RNTrackPlayer20NetworkEventProducerC0cD0O", "networkChanged"]
+- ["13RNTrackPlayer20NetworkEventProducerC", "NetworkEvent"]
+- !private ["13RNTrackPlayer20NetworkEventProducerC", "connectionLossDate"]
+- !private ["13RNTrackPlayer30QualityAdjustmentEventProducerC", "interruptionCount"]
+- !private ["13RNTrackPlayer5TrackC", "deinit"]
+- !private ["13RNTrackPlayer5TrackC", "url"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "timeIntervalSinceNow"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "NetworkEvent"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "backgroundHandler"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "beginBackgroundTask"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "connectionLossDate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "currentItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "interruptionCount"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isPlaybackBufferEmpty"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "maximumConnectionLossTime"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "networkEventProducer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "player"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "qualityAdjustmentEventProducer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "resumeAfterConnectionLoss"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "retryOrPlayNext"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "state"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "stateWhenConnectionLost"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "timeIntervalSinceNow"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "url"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+depends-nominal:
+- !private "So8AVPlayerC"
+- !private "So12AVPlayerItemC"
+- "13RNTrackPlayer05AudioB0C"
+- "13RNTrackPlayer05AudioB5StateO"
+- !private "13RNTrackPlayer17BackgroundHandlerC"
+- !private "Sb"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- "13RNTrackPlayer5EventP"
+- !private "13RNTrackPlayer13EventListenerP"
+- "13RNTrackPlayer13EventProducerP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "13RNTrackPlayer8MediaURLV"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So6NSDateC"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- "13RNTrackPlayer20NetworkEventProducerC0cD0O"
+- "13RNTrackPlayer20NetworkEventProducerC"
+- !private "13RNTrackPlayer30QualityAdjustmentEventProducerC"
+- !private "13RNTrackPlayer5TrackC"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MediaPlayer.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/mac/Desktop/React-native-projects/check/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h"
+- "/Users/mac/Desktop/React-native-projects/check/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h"
+- "/Users/mac/Desktop/React-native-projects/check/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h"
+- "/Users/mac/Desktop/React-native-projects/check/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h"
+- "/Users/mac/Desktop/React-native-projects/check/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h"
+- "/Users/mac/Desktop/React-native-projects/check/node_modules/react-native-track-player/ios/RNTrackPlayer/Support/RNTrackPlayer-Bridging-Header.h"
+- "/Users/mac/Desktop/React-native-projects/check/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h"
+- "/Users/mac/Desktop/React-native-projects/check/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTEventEmitter.h"
+- "/Users/mac/Desktop/React-native-projects/check/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/MediaPlayer.framework/Headers/MediaPlayer.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+interface-hash: "9c8ce108f5fc59bc4a84781d5788b8eb"

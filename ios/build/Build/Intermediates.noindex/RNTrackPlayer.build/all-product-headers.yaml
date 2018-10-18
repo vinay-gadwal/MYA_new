@@ -1,0 +1,28 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/mac/Desktop/React-native-projects/check/ios/build/Build/Products/Debug-iphonesimulator/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/mac/Desktop/React-native-projects/check/ios/build/Build/Intermediates.noindex/RNTrackPlayer.build/Debug-iphonesimulator/RNTrackPlayer.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/mac/Desktop/React-native-projects/check/ios/build/Build/Products/Debug-iphonesimulator/include",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "RNTrackPlayer-Swift.h",
+          'external-contents': "/Users/mac/Desktop/React-native-projects/check/ios/build/Build/Products/Debug-iphonesimulator/usr/local/include/RNTrackPlayer-Swift.h"
+        }
+      ]
+    }
+  ]
+}

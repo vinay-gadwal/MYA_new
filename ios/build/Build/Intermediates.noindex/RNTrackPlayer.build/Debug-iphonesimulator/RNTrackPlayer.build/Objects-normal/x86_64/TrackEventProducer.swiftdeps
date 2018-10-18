@@ -1,0 +1,353 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TrackEventProducer"
+provides-nominal:
+- "13RNTrackPlayer18TrackEventProducerC"
+- "13RNTrackPlayer18TrackEventProducerC0cD0O"
+provides-member:
+- ["13RNTrackPlayer18TrackEventProducerC", ""]
+- ["13RNTrackPlayer18TrackEventProducerC0cD0O", ""]
+provides-dynamic-lookup:
+- "item"
+- "observeValue"
+- "startProducingEvents"
+- "stopProducingEvents"
+depends-top-level:
+- !private "!"
+- "=="
+- !private "Array"
+- "AssignmentPrecedence"
+- "BooleanLiteralType"
+- "Event"
+- "EventListener"
+- "EventProducer"
+- "NSKeyValueChangeKey"
+- "NSObject"
+- "String"
+- "StringLiteralType"
+- "Track"
+- "TrackEventProducer"
+- "UnsafeMutableRawPointer"
+- !private "_findStringSwitchCase"
+- !private "~="
+depends-member:
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "Track"]
+- !private ["s7CVarArgP", "TrackEvent"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_findStringSwitchCase"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "addObserver"]
+- !private ["s7CVarArgP", "ap_KVOProperties"]
+- ["s7CVarArgP", "eventListener"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "item"]
+- !private ["s7CVarArgP", "listening"]
+- !private ["s7CVarArgP", "removeObserver"]
+- ["s7CVarArgP", "startProducingEvents"]
+- ["s7CVarArgP", "stopProducingEvents"]
+- ["s10CollectionP", "init"]
+- ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "Track"]
+- !private ["s28CustomDebugStringConvertibleP", "TrackEvent"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "_findStringSwitchCase"]
+- !private ["s28CustomDebugStringConvertibleP", "addObserver"]
+- !private ["s28CustomDebugStringConvertibleP", "ap_KVOProperties"]
+- ["s28CustomDebugStringConvertibleP", "eventListener"]
+- !private ["s28CustomDebugStringConvertibleP", "flatMap"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "item"]
+- !private ["s28CustomDebugStringConvertibleP", "listening"]
+- !private ["s28CustomDebugStringConvertibleP", "removeObserver"]
+- ["s28CustomDebugStringConvertibleP", "startProducingEvents"]
+- ["s28CustomDebugStringConvertibleP", "stopProducingEvents"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "flatMap"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "Track"]
+- !private ["s23CustomStringConvertibleP", "TrackEvent"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_findStringSwitchCase"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "addObserver"]
+- !private ["s23CustomStringConvertibleP", "ap_KVOProperties"]
+- ["s23CustomStringConvertibleP", "eventListener"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "item"]
+- !private ["s23CustomStringConvertibleP", "listening"]
+- !private ["s23CustomStringConvertibleP", "removeObserver"]
+- ["s23CustomStringConvertibleP", "startProducingEvents"]
+- ["s23CustomStringConvertibleP", "stopProducingEvents"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "flatMap"]
+- ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "flatMap"]
+- ["s9EncodableP", "init"]
+- ["s9EquatableP", "RawValue"]
+- !private ["s9EquatableP", "Track"]
+- !private ["s9EquatableP", "TrackEvent"]
+- ["s9EquatableP", ""]
+- ["s9EquatableP", "_Default_RawValue"]
+- !private ["s9EquatableP", "_findStringSwitchCase"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "addObserver"]
+- !private ["s9EquatableP", "ap_KVOProperties"]
+- ["s9EquatableP", "eventListener"]
+- !private ["s9EquatableP", "flatMap"]
+- ["s9EquatableP", "hashValue"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "item"]
+- !private ["s9EquatableP", "listening"]
+- !private ["s9EquatableP", "new"]
+- ["s9EquatableP", "rawValue"]
+- !private ["s9EquatableP", "removeObserver"]
+- ["s9EquatableP", "startProducingEvents"]
+- ["s9EquatableP", "stopProducingEvents"]
+- ["13RNTrackPlayer5EventP", "RawValue"]
+- ["13RNTrackPlayer5EventP", ""]
+- ["13RNTrackPlayer5EventP", "_Default_RawValue"]
+- !private ["13RNTrackPlayer5EventP", "_findStringSwitchCase"]
+- ["13RNTrackPlayer5EventP", "hashValue"]
+- ["13RNTrackPlayer5EventP", "init"]
+- ["13RNTrackPlayer5EventP", "rawValue"]
+- !private ["13RNTrackPlayer13EventListenerP", "onEvent"]
+- !private ["13RNTrackPlayer13EventProducerP", "Track"]
+- !private ["13RNTrackPlayer13EventProducerP", "TrackEvent"]
+- ["13RNTrackPlayer13EventProducerP", ""]
+- !private ["13RNTrackPlayer13EventProducerP", "_findStringSwitchCase"]
+- ["13RNTrackPlayer13EventProducerP", "eventListener"]
+- !private ["13RNTrackPlayer13EventProducerP", "item"]
+- !private ["13RNTrackPlayer13EventProducerP", "listening"]
+- ["13RNTrackPlayer13EventProducerP", "startProducingEvents"]
+- ["13RNTrackPlayer13EventProducerP", "stopProducingEvents"]
+- !private ["s25ExpressibleByArrayLiteralP", "new"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "flatMap"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s8HashableP", "RawValue"]
+- !private ["s8HashableP", "Track"]
+- !private ["s8HashableP", "TrackEvent"]
+- ["s8HashableP", ""]
+- ["s8HashableP", "_Default_RawValue"]
+- !private ["s8HashableP", "_findStringSwitchCase"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "addObserver"]
+- !private ["s8HashableP", "ap_KVOProperties"]
+- ["s8HashableP", "eventListener"]
+- ["s8HashableP", "hashValue"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "item"]
+- !private ["s8HashableP", "listening"]
+- ["s8HashableP", "rawValue"]
+- !private ["s8HashableP", "removeObserver"]
+- ["s8HashableP", "startProducingEvents"]
+- ["s8HashableP", "stopProducingEvents"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- !private ["SC26NSKeyValueObservingOptionsV", "new"]
+- ["So8NSObjectC", "Event"]
+- ["So8NSObjectC", "EventListener"]
+- ["So8NSObjectC", "NSKeyValueChangeKey"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "Track"]
+- !private ["So8NSObjectC", "TrackEvent"]
+- ["So8NSObjectC", "UnsafeMutableRawPointer"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "_findStringSwitchCase"]
+- !private ["So8NSObjectC", "addObserver"]
+- ["So8NSObjectC", "ap_KVOProperties"]
+- ["So8NSObjectC", "eventListener"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "item"]
+- ["So8NSObjectC", "listening"]
+- ["So8NSObjectC", "observeValue"]
+- !private ["So8NSObjectC", "removeObserver"]
+- ["So8NSObjectC", "startProducingEvents"]
+- ["So8NSObjectC", "stopProducingEvents"]
+- !private ["So16NSObjectProtocolP", "Track"]
+- !private ["So16NSObjectProtocolP", "TrackEvent"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "_findStringSwitchCase"]
+- !private ["So16NSObjectProtocolP", "addObserver"]
+- !private ["So16NSObjectProtocolP", "ap_KVOProperties"]
+- ["So16NSObjectProtocolP", "eventListener"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "item"]
+- !private ["So16NSObjectProtocolP", "listening"]
+- !private ["So16NSObjectProtocolP", "removeObserver"]
+- ["So16NSObjectProtocolP", "startProducingEvents"]
+- ["So16NSObjectProtocolP", "stopProducingEvents"]
+- !private ["s9OptionSetP", "new"]
+- !private ["Sq", "flatMap"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- ["s16RawRepresentableP", "RawValue"]
+- ["s16RawRepresentableP", ""]
+- ["s16RawRepresentableP", "_Default_RawValue"]
+- !private ["s16RawRepresentableP", "_findStringSwitchCase"]
+- ["s16RawRepresentableP", "hashValue"]
+- ["s16RawRepresentableP", "init"]
+- !private ["s16RawRepresentableP", "new"]
+- ["s16RawRepresentableP", "rawValue"]
+- ["s8SequenceP", "init"]
+- !private ["s10SetAlgebraP", "new"]
+- !private ["s12StaticStringV", "init"]
+- ["SS", "init"]
+- ["s14StringProtocolP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["13RNTrackPlayer5TrackC", "String"]
+- !private ["13RNTrackPlayer5TrackC", "addObserver"]
+- !private ["13RNTrackPlayer5TrackC", "ap_KVOProperties"]
+- !private ["13RNTrackPlayer5TrackC", "removeObserver"]
+- ["13RNTrackPlayer18TrackEventProducerC0cD0O", "RawValue"]
+- ["13RNTrackPlayer18TrackEventProducerC0cD0O", "_Default_RawValue"]
+- !private ["13RNTrackPlayer18TrackEventProducerC0cD0O", "_findStringSwitchCase"]
+- ["13RNTrackPlayer18TrackEventProducerC0cD0O", "deinit"]
+- ["13RNTrackPlayer18TrackEventProducerC0cD0O", "hashValue"]
+- ["13RNTrackPlayer18TrackEventProducerC0cD0O", "init"]
+- ["13RNTrackPlayer18TrackEventProducerC0cD0O", "rawValue"]
+- ["13RNTrackPlayer18TrackEventProducerC0cD0O", "updatedAlbum"]
+- ["13RNTrackPlayer18TrackEventProducerC0cD0O", "updatedArtist"]
+- ["13RNTrackPlayer18TrackEventProducerC0cD0O", "updatedArtwork"]
+- ["13RNTrackPlayer18TrackEventProducerC0cD0O", "updatedTitle"]
+- ["13RNTrackPlayer18TrackEventProducerC", "Event"]
+- ["13RNTrackPlayer18TrackEventProducerC", "EventListener"]
+- ["13RNTrackPlayer18TrackEventProducerC", "NSKeyValueChangeKey"]
+- ["13RNTrackPlayer18TrackEventProducerC", "String"]
+- ["13RNTrackPlayer18TrackEventProducerC", "Track"]
+- ["13RNTrackPlayer18TrackEventProducerC", "TrackEvent"]
+- ["13RNTrackPlayer18TrackEventProducerC", "UnsafeMutableRawPointer"]
+- !private ["13RNTrackPlayer18TrackEventProducerC", "_findStringSwitchCase"]
+- ["13RNTrackPlayer18TrackEventProducerC", "deinit"]
+- ["13RNTrackPlayer18TrackEventProducerC", "eventListener"]
+- ["13RNTrackPlayer18TrackEventProducerC", "init"]
+- ["13RNTrackPlayer18TrackEventProducerC", "item"]
+- !private ["13RNTrackPlayer18TrackEventProducerC", "listening"]
+- ["13RNTrackPlayer18TrackEventProducerC", "observeValue"]
+- ["13RNTrackPlayer18TrackEventProducerC", "startProducingEvents"]
+- ["13RNTrackPlayer18TrackEventProducerC", "stopProducingEvents"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Track"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "TrackEvent"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "_findStringSwitchCase"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addObserver"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ap_KVOProperties"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "eventListener"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "item"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "listening"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeObserver"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "startProducingEvents"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "stopProducingEvents"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "flatMap"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "s23BidirectionalCollectionP"
+- !private "Sb"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s9EquatableP"
+- "13RNTrackPlayer5EventP"
+- !private "13RNTrackPlayer13EventListenerP"
+- "13RNTrackPlayer13EventProducerP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "SC26NSKeyValueObservingOptionsV"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "s9OptionSetP"
+- !private "Sq"
+- "s26RangeReplaceableCollectionP"
+- "s16RawRepresentableP"
+- "s8SequenceP"
+- !private "s10SetAlgebraP"
+- !private "s12StaticStringV"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "13RNTrackPlayer5TrackC"
+- "13RNTrackPlayer18TrackEventProducerC0cD0O"
+- "13RNTrackPlayer18TrackEventProducerC"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MediaPlayer.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/mac/Desktop/React-native-projects/check/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h"
+- "/Users/mac/Desktop/React-native-projects/check/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h"
+- "/Users/mac/Desktop/React-native-projects/check/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h"
+- "/Users/mac/Desktop/React-native-projects/check/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h"
+- "/Users/mac/Desktop/React-native-projects/check/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h"
+- "/Users/mac/Desktop/React-native-projects/check/node_modules/react-native-track-player/ios/RNTrackPlayer/Support/RNTrackPlayer-Bridging-Header.h"
+- "/Users/mac/Desktop/React-native-projects/check/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h"
+- "/Users/mac/Desktop/React-native-projects/check/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTEventEmitter.h"
+- "/Users/mac/Desktop/React-native-projects/check/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/MediaPlayer.framework/Headers/MediaPlayer.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+interface-hash: "8dee1ed250d51ad0fe10a5e715634c11"

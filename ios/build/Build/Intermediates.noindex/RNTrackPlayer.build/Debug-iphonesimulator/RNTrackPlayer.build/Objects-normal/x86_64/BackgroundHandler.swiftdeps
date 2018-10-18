@@ -1,0 +1,227 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BackgroundTaskCreator"
+- "BackgroundHandler"
+provides-nominal:
+- "13RNTrackPlayer21BackgroundTaskCreatorP"
+- "So13UIApplicationC"
+- "13RNTrackPlayer17BackgroundHandlerC"
+provides-member:
+- ["13RNTrackPlayer21BackgroundTaskCreatorP", ""]
+- ["So13UIApplicationC", ""]
+- ["13RNTrackPlayer17BackgroundHandlerC", ""]
+provides-dynamic-lookup:
+- "beginBackgroundTask"
+- "endBackgroundTask"
+depends-top-level:
+- !private "!="
+- !private "+="
+- !private "-="
+- !private "=="
+- "AnyObject"
+- "AssignmentPrecedence"
+- "BackgroundHandler"
+- "BackgroundTaskCreator"
+- "Bool"
+- !private "BooleanLiteralType"
+- "Int"
+- "NSObject"
+- "UIApplication"
+- "UIBackgroundTaskIdentifier"
+- !private "UIBackgroundTaskInvalid"
+- "Void"
+depends-member:
+- ["13RNTrackPlayer17BackgroundHandlerC", "BackgroundTaskCreator"]
+- ["13RNTrackPlayer17BackgroundHandlerC", "Bool"]
+- ["13RNTrackPlayer17BackgroundHandlerC", "Int"]
+- ["13RNTrackPlayer17BackgroundHandlerC", "UIApplication"]
+- !private ["13RNTrackPlayer17BackgroundHandlerC", "UIBackgroundTaskInvalid"]
+- ["13RNTrackPlayer17BackgroundHandlerC", "backgroundTaskCreator"]
+- ["13RNTrackPlayer17BackgroundHandlerC", "beginBackgroundTask"]
+- !private ["13RNTrackPlayer17BackgroundHandlerC", "counter"]
+- ["13RNTrackPlayer17BackgroundHandlerC", "deinit"]
+- ["13RNTrackPlayer17BackgroundHandlerC", "endBackgroundTask"]
+- ["13RNTrackPlayer17BackgroundHandlerC", "init"]
+- !private ["13RNTrackPlayer17BackgroundHandlerC", "taskIdentifier"]
+- ["13RNTrackPlayer21BackgroundTaskCreatorP", "UIBackgroundTaskIdentifier"]
+- ["13RNTrackPlayer21BackgroundTaskCreatorP", "Void"]
+- ["13RNTrackPlayer21BackgroundTaskCreatorP", ""]
+- ["13RNTrackPlayer21BackgroundTaskCreatorP", "beginBackgroundTask"]
+- ["13RNTrackPlayer21BackgroundTaskCreatorP", "endBackgroundTask"]
+- ["13RNTrackPlayer21BackgroundTaskCreatorP", "shared"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["s7CVarArgP", "UIApplication"]
+- !private ["s7CVarArgP", "UIBackgroundTaskInvalid"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "backgroundTaskCreator"]
+- ["s7CVarArgP", "beginBackgroundTask"]
+- !private ["s7CVarArgP", "counter"]
+- ["s7CVarArgP", "endBackgroundTask"]
+- !private ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "shared"]
+- !private ["s7CVarArgP", "taskIdentifier"]
+- ["s28CustomDebugStringConvertibleP", "UIApplication"]
+- !private ["s28CustomDebugStringConvertibleP", "UIBackgroundTaskInvalid"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "backgroundTaskCreator"]
+- ["s28CustomDebugStringConvertibleP", "beginBackgroundTask"]
+- !private ["s28CustomDebugStringConvertibleP", "counter"]
+- ["s28CustomDebugStringConvertibleP", "endBackgroundTask"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "taskIdentifier"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- ["s23CustomStringConvertibleP", "UIApplication"]
+- !private ["s23CustomStringConvertibleP", "UIBackgroundTaskInvalid"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "backgroundTaskCreator"]
+- ["s23CustomStringConvertibleP", "beginBackgroundTask"]
+- !private ["s23CustomStringConvertibleP", "counter"]
+- ["s23CustomStringConvertibleP", "endBackgroundTask"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "shared"]
+- !private ["s23CustomStringConvertibleP", "taskIdentifier"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- ["s9EquatableP", "UIApplication"]
+- !private ["s9EquatableP", "UIBackgroundTaskInvalid"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "backgroundTaskCreator"]
+- ["s9EquatableP", "beginBackgroundTask"]
+- !private ["s9EquatableP", "counter"]
+- ["s9EquatableP", "endBackgroundTask"]
+- !private ["s9EquatableP", "init"]
+- ["s9EquatableP", "shared"]
+- !private ["s9EquatableP", "taskIdentifier"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s8HashableP", "UIApplication"]
+- !private ["s8HashableP", "UIBackgroundTaskInvalid"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "backgroundTaskCreator"]
+- ["s8HashableP", "beginBackgroundTask"]
+- !private ["s8HashableP", "counter"]
+- ["s8HashableP", "endBackgroundTask"]
+- !private ["s8HashableP", "init"]
+- ["s8HashableP", "shared"]
+- !private ["s8HashableP", "taskIdentifier"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["So8NSObjectC", "BackgroundTaskCreator"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "UIApplication"]
+- !private ["So8NSObjectC", "UIBackgroundTaskInvalid"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "backgroundTaskCreator"]
+- ["So8NSObjectC", "beginBackgroundTask"]
+- ["So8NSObjectC", "counter"]
+- ["So8NSObjectC", "endBackgroundTask"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "shared"]
+- ["So8NSObjectC", "taskIdentifier"]
+- ["So16NSObjectProtocolP", "UIApplication"]
+- !private ["So16NSObjectProtocolP", "UIBackgroundTaskInvalid"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "backgroundTaskCreator"]
+- ["So16NSObjectProtocolP", "beginBackgroundTask"]
+- !private ["So16NSObjectProtocolP", "counter"]
+- ["So16NSObjectProtocolP", "endBackgroundTask"]
+- !private ["So16NSObjectProtocolP", "init"]
+- ["So16NSObjectProtocolP", "shared"]
+- !private ["So16NSObjectProtocolP", "taskIdentifier"]
+- ["So13UIApplicationC", "beginBackgroundTask"]
+- ["So13UIApplicationC", "deinit"]
+- ["So13UIApplicationC", "endBackgroundTask"]
+- ["So13UIApplicationC", "shared"]
+- ["So30UIPasteConfigurationSupportingP", "beginBackgroundTask"]
+- ["So30UIPasteConfigurationSupportingP", "endBackgroundTask"]
+- ["So30UIPasteConfigurationSupportingP", "shared"]
+- ["So11UIResponderC", "beginBackgroundTask"]
+- ["So11UIResponderC", "endBackgroundTask"]
+- ["So11UIResponderC", "shared"]
+- ["So30UIResponderStandardEditActionsP", "beginBackgroundTask"]
+- ["So30UIResponderStandardEditActionsP", "endBackgroundTask"]
+- ["So30UIResponderStandardEditActionsP", "shared"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "UIApplication"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIBackgroundTaskInvalid"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "backgroundTaskCreator"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "beginBackgroundTask"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "counter"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "endBackgroundTask"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "taskIdentifier"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+depends-nominal:
+- "13RNTrackPlayer17BackgroundHandlerC"
+- "13RNTrackPlayer21BackgroundTaskCreatorP"
+- !private "Sb"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So13UIApplicationC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MediaPlayer.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/mac/Desktop/React-native-projects/check/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h"
+- "/Users/mac/Desktop/React-native-projects/check/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h"
+- "/Users/mac/Desktop/React-native-projects/check/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h"
+- "/Users/mac/Desktop/React-native-projects/check/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h"
+- "/Users/mac/Desktop/React-native-projects/check/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h"
+- "/Users/mac/Desktop/React-native-projects/check/node_modules/react-native-track-player/ios/RNTrackPlayer/Support/RNTrackPlayer-Bridging-Header.h"
+- "/Users/mac/Desktop/React-native-projects/check/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h"
+- "/Users/mac/Desktop/React-native-projects/check/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTEventEmitter.h"
+- "/Users/mac/Desktop/React-native-projects/check/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/MediaPlayer.framework/Headers/MediaPlayer.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+interface-hash: "69b34612cf8bf79a5842022b817b981f"

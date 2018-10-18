@@ -1,0 +1,369 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "NetworkEventProducer"
+provides-nominal:
+- "13RNTrackPlayer20NetworkEventProducerC"
+- "13RNTrackPlayer20NetworkEventProducerC0cD0O"
+provides-member:
+- ["13RNTrackPlayer20NetworkEventProducerC", ""]
+- ["13RNTrackPlayer20NetworkEventProducerC0cD0O", ""]
+provides-dynamic-lookup:
+- "connectionLossDate"
+- "reachabilityStatusChanged"
+- "startProducingEvents"
+- "stopProducingEvents"
+depends-top-level:
+- !private "!"
+- !private "!="
+- "=="
+- !private "??"
+- "AssignmentPrecedence"
+- "BooleanLiteralType"
+- "Event"
+- "EventListener"
+- "EventProducer"
+- "NSDate"
+- "NSNotification"
+- "NSObject"
+- "NetworkEventProducer"
+- !private "NotificationCenter"
+- "Reachability"
+- !private "ReachabilityChangedNotification"
+- "Selector"
+depends-member:
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "NSDate"]
+- !private ["s7CVarArgP", "NetworkEvent"]
+- !private ["s7CVarArgP", "NotificationCenter"]
+- !private ["s7CVarArgP", "ReachabilityChangedNotification"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "addObserver"]
+- !private ["s7CVarArgP", "connectionLossDate"]
+- !private ["s7CVarArgP", "default"]
+- ["s7CVarArgP", "eventListener"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "lastStatus"]
+- !private ["s7CVarArgP", "listening"]
+- !private ["s7CVarArgP", "reachability"]
+- ["s7CVarArgP", "reachabilityStatusChanged"]
+- !private ["s7CVarArgP", "removeObserver"]
+- ["s7CVarArgP", "startProducingEvents"]
+- ["s7CVarArgP", "stopProducingEvents"]
+- !private ["s28CustomDebugStringConvertibleP", "NSDate"]
+- !private ["s28CustomDebugStringConvertibleP", "NetworkEvent"]
+- !private ["s28CustomDebugStringConvertibleP", "NotificationCenter"]
+- !private ["s28CustomDebugStringConvertibleP", "ReachabilityChangedNotification"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addObserver"]
+- !private ["s28CustomDebugStringConvertibleP", "connectionLossDate"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- ["s28CustomDebugStringConvertibleP", "eventListener"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "lastStatus"]
+- !private ["s28CustomDebugStringConvertibleP", "listening"]
+- !private ["s28CustomDebugStringConvertibleP", "notReachable"]
+- !private ["s28CustomDebugStringConvertibleP", "reachability"]
+- ["s28CustomDebugStringConvertibleP", "reachabilityStatusChanged"]
+- !private ["s28CustomDebugStringConvertibleP", "removeObserver"]
+- ["s28CustomDebugStringConvertibleP", "startProducingEvents"]
+- ["s28CustomDebugStringConvertibleP", "stopProducingEvents"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s17CustomReflectableP", "NetworkEventProducer"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "notReachable"]
+- !private ["s17CustomReflectableP", "reachabilityStatusChanged"]
+- !private ["s23CustomStringConvertibleP", "NSDate"]
+- !private ["s23CustomStringConvertibleP", "NetworkEvent"]
+- ["s23CustomStringConvertibleP", "NetworkEventProducer"]
+- !private ["s23CustomStringConvertibleP", "NotificationCenter"]
+- !private ["s23CustomStringConvertibleP", "ReachabilityChangedNotification"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "addObserver"]
+- !private ["s23CustomStringConvertibleP", "connectionLossDate"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- ["s23CustomStringConvertibleP", "eventListener"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "lastStatus"]
+- !private ["s23CustomStringConvertibleP", "listening"]
+- !private ["s23CustomStringConvertibleP", "notReachable"]
+- !private ["s23CustomStringConvertibleP", "reachability"]
+- ["s23CustomStringConvertibleP", "reachabilityStatusChanged"]
+- !private ["s23CustomStringConvertibleP", "removeObserver"]
+- ["s23CustomStringConvertibleP", "startProducingEvents"]
+- ["s23CustomStringConvertibleP", "stopProducingEvents"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "notReachable"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "notReachable"]
+- !private ["s9EquatableP", "NSDate"]
+- !private ["s9EquatableP", "NetworkEvent"]
+- ["s9EquatableP", "NetworkEventProducer"]
+- !private ["s9EquatableP", "NotificationCenter"]
+- !private ["s9EquatableP", "ReachabilityChangedNotification"]
+- ["s9EquatableP", ""]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "addObserver"]
+- !private ["s9EquatableP", "connectionLossDate"]
+- !private ["s9EquatableP", "connectionLost"]
+- !private ["s9EquatableP", "connectionRetrieved"]
+- !private ["s9EquatableP", "default"]
+- ["s9EquatableP", "eventListener"]
+- ["s9EquatableP", "hashValue"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "lastStatus"]
+- !private ["s9EquatableP", "listening"]
+- !private ["s9EquatableP", "networkChanged"]
+- !private ["s9EquatableP", "notReachable"]
+- !private ["s9EquatableP", "reachability"]
+- ["s9EquatableP", "reachabilityStatusChanged"]
+- !private ["s9EquatableP", "removeObserver"]
+- ["s9EquatableP", "startProducingEvents"]
+- ["s9EquatableP", "stopProducingEvents"]
+- ["13RNTrackPlayer5EventP", ""]
+- !private ["13RNTrackPlayer5EventP", "connectionLost"]
+- !private ["13RNTrackPlayer5EventP", "connectionRetrieved"]
+- ["13RNTrackPlayer5EventP", "hashValue"]
+- !private ["13RNTrackPlayer5EventP", "networkChanged"]
+- !private ["13RNTrackPlayer13EventListenerP", "onEvent"]
+- !private ["13RNTrackPlayer13EventProducerP", "NSDate"]
+- !private ["13RNTrackPlayer13EventProducerP", "NetworkEvent"]
+- !private ["13RNTrackPlayer13EventProducerP", "NotificationCenter"]
+- !private ["13RNTrackPlayer13EventProducerP", "ReachabilityChangedNotification"]
+- ["13RNTrackPlayer13EventProducerP", ""]
+- !private ["13RNTrackPlayer13EventProducerP", "connectionLossDate"]
+- ["13RNTrackPlayer13EventProducerP", "eventListener"]
+- !private ["13RNTrackPlayer13EventProducerP", "lastStatus"]
+- !private ["13RNTrackPlayer13EventProducerP", "listening"]
+- !private ["13RNTrackPlayer13EventProducerP", "reachability"]
+- ["13RNTrackPlayer13EventProducerP", "reachabilityStatusChanged"]
+- ["13RNTrackPlayer13EventProducerP", "startProducingEvents"]
+- ["13RNTrackPlayer13EventProducerP", "stopProducingEvents"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "NetworkEventProducer"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "reachabilityStatusChanged"]
+- !private ["s23ExpressibleByNilLiteralP", "notReachable"]
+- ["s26ExpressibleByStringLiteralP", "NetworkEventProducer"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "reachabilityStatusChanged"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "NetworkEventProducer"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "reachabilityStatusChanged"]
+- !private ["s8HashableP", "NSDate"]
+- !private ["s8HashableP", "NetworkEvent"]
+- ["s8HashableP", "NetworkEventProducer"]
+- !private ["s8HashableP", "NotificationCenter"]
+- !private ["s8HashableP", "ReachabilityChangedNotification"]
+- ["s8HashableP", ""]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "addObserver"]
+- !private ["s8HashableP", "connectionLossDate"]
+- !private ["s8HashableP", "connectionLost"]
+- !private ["s8HashableP", "connectionRetrieved"]
+- !private ["s8HashableP", "default"]
+- ["s8HashableP", "eventListener"]
+- ["s8HashableP", "hashValue"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "lastStatus"]
+- !private ["s8HashableP", "listening"]
+- !private ["s8HashableP", "networkChanged"]
+- !private ["s8HashableP", "notReachable"]
+- !private ["s8HashableP", "reachability"]
+- ["s8HashableP", "reachabilityStatusChanged"]
+- !private ["s8HashableP", "removeObserver"]
+- ["s8HashableP", "startProducingEvents"]
+- ["s8HashableP", "stopProducingEvents"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So6NSDateC", "init"]
+- ["So8NSObjectC", "Event"]
+- ["So8NSObjectC", "EventListener"]
+- ["So8NSObjectC", "NSDate"]
+- ["So8NSObjectC", "NSNotification"]
+- !private ["So8NSObjectC", "NetworkEvent"]
+- !private ["So8NSObjectC", "NotificationCenter"]
+- ["So8NSObjectC", "Reachability"]
+- !private ["So8NSObjectC", "ReachabilityChangedNotification"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "addObserver"]
+- ["So8NSObjectC", "connectionLossDate"]
+- !private ["So8NSObjectC", "default"]
+- ["So8NSObjectC", "eventListener"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "lastStatus"]
+- ["So8NSObjectC", "listening"]
+- ["So8NSObjectC", "reachability"]
+- ["So8NSObjectC", "reachabilityStatusChanged"]
+- !private ["So8NSObjectC", "removeObserver"]
+- ["So8NSObjectC", "startProducingEvents"]
+- ["So8NSObjectC", "stopProducingEvents"]
+- !private ["So16NSObjectProtocolP", "NSDate"]
+- !private ["So16NSObjectProtocolP", "NetworkEvent"]
+- !private ["So16NSObjectProtocolP", "NotificationCenter"]
+- !private ["So16NSObjectProtocolP", "ReachabilityChangedNotification"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So16NSObjectProtocolP", "addObserver"]
+- !private ["So16NSObjectProtocolP", "connectionLossDate"]
+- !private ["So16NSObjectProtocolP", "default"]
+- ["So16NSObjectProtocolP", "eventListener"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "lastStatus"]
+- !private ["So16NSObjectProtocolP", "listening"]
+- !private ["So16NSObjectProtocolP", "reachability"]
+- ["So16NSObjectProtocolP", "reachabilityStatusChanged"]
+- !private ["So16NSObjectProtocolP", "removeObserver"]
+- ["So16NSObjectProtocolP", "startProducingEvents"]
+- ["So16NSObjectProtocolP", "stopProducingEvents"]
+- !private ["So14NSSecureCodingP", "init"]
+- ["13RNTrackPlayer20NetworkEventProducerC0cD0O", "__derived_enum_equals"]
+- ["13RNTrackPlayer20NetworkEventProducerC0cD0O", "connectionLost"]
+- ["13RNTrackPlayer20NetworkEventProducerC0cD0O", "connectionRetrieved"]
+- ["13RNTrackPlayer20NetworkEventProducerC0cD0O", "deinit"]
+- ["13RNTrackPlayer20NetworkEventProducerC0cD0O", "hashValue"]
+- ["13RNTrackPlayer20NetworkEventProducerC0cD0O", "networkChanged"]
+- ["13RNTrackPlayer20NetworkEventProducerC", "Event"]
+- ["13RNTrackPlayer20NetworkEventProducerC", "EventListener"]
+- ["13RNTrackPlayer20NetworkEventProducerC", "NSDate"]
+- ["13RNTrackPlayer20NetworkEventProducerC", "NSNotification"]
+- ["13RNTrackPlayer20NetworkEventProducerC", "NetworkEvent"]
+- !private ["13RNTrackPlayer20NetworkEventProducerC", "NotificationCenter"]
+- ["13RNTrackPlayer20NetworkEventProducerC", "Reachability"]
+- !private ["13RNTrackPlayer20NetworkEventProducerC", "ReachabilityChangedNotification"]
+- ["13RNTrackPlayer20NetworkEventProducerC", "connectionLossDate"]
+- ["13RNTrackPlayer20NetworkEventProducerC", "deinit"]
+- ["13RNTrackPlayer20NetworkEventProducerC", "eventListener"]
+- ["13RNTrackPlayer20NetworkEventProducerC", "init"]
+- !private ["13RNTrackPlayer20NetworkEventProducerC", "lastStatus"]
+- !private ["13RNTrackPlayer20NetworkEventProducerC", "listening"]
+- ["13RNTrackPlayer20NetworkEventProducerC", "reachability"]
+- ["13RNTrackPlayer20NetworkEventProducerC", "reachabilityStatusChanged"]
+- ["13RNTrackPlayer20NetworkEventProducerC", "startProducingEvents"]
+- ["13RNTrackPlayer20NetworkEventProducerC", "stopProducingEvents"]
+- !private ["13RNTrackPlayer12ReachabilityC13NetworkStatusO", "deinit"]
+- !private ["13RNTrackPlayer12ReachabilityC13NetworkStatusO", "notReachable"]
+- !private ["So18NotificationCenterC", "addObserver"]
+- !private ["So18NotificationCenterC", "default"]
+- !private ["So18NotificationCenterC", "removeObserver"]
+- !private ["Sq", "notReachable"]
+- ["13RNTrackPlayer12ReachabilityC", "NetworkStatus"]
+- !private ["13RNTrackPlayer12ReachabilityC", "currentReachabilityStatus"]
+- !private ["13RNTrackPlayer12ReachabilityC", "startNotifier"]
+- !private ["13RNTrackPlayer12ReachabilityC", "stopNotifier"]
+- ["10ObjectiveC8SelectorV", "NetworkEventProducer"]
+- !private ["10ObjectiveC8SelectorV", "reachabilityStatusChanged"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSDate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NetworkEvent"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NotificationCenter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ReachabilityChangedNotification"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addObserver"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "connectionLossDate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "eventListener"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lastStatus"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "listening"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "reachability"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "reachabilityStatusChanged"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "removeObserver"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "startProducingEvents"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "stopProducingEvents"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "notReachable"]
+- !private ["s26_OptionalNilComparisonTypeV", "notReachable"]
+depends-nominal:
+- !private "Sb"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- "13RNTrackPlayer5EventP"
+- !private "13RNTrackPlayer13EventListenerP"
+- "13RNTrackPlayer13EventProducerP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So6NSDateC"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- "13RNTrackPlayer20NetworkEventProducerC0cD0O"
+- "13RNTrackPlayer20NetworkEventProducerC"
+- !private "13RNTrackPlayer12ReachabilityC13NetworkStatusO"
+- !private "So18NotificationCenterC"
+- !private "Sq"
+- "13RNTrackPlayer12ReachabilityC"
+- "10ObjectiveC8SelectorV"
+- !private "s12StaticStringV"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_OptionalNilComparisonTypeV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MediaPlayer.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/mac/Desktop/React-native-projects/check/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h"
+- "/Users/mac/Desktop/React-native-projects/check/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h"
+- "/Users/mac/Desktop/React-native-projects/check/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h"
+- "/Users/mac/Desktop/React-native-projects/check/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h"
+- "/Users/mac/Desktop/React-native-projects/check/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h"
+- "/Users/mac/Desktop/React-native-projects/check/node_modules/react-native-track-player/ios/RNTrackPlayer/Support/RNTrackPlayer-Bridging-Header.h"
+- "/Users/mac/Desktop/React-native-projects/check/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h"
+- "/Users/mac/Desktop/React-native-projects/check/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTEventEmitter.h"
+- "/Users/mac/Desktop/React-native-projects/check/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/MediaPlayer.framework/Headers/MediaPlayer.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+interface-hash: "788c0bfb01f04605f6b58cc8c94263e6"

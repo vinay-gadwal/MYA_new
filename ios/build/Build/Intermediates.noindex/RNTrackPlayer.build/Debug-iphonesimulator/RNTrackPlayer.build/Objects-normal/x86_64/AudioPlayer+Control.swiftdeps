@@ -1,0 +1,419 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["13RNTrackPlayer05AudioB0C", ""]
+- ["13RNTrackPlayer05AudioB0C", "resume"]
+- ["13RNTrackPlayer05AudioB0C", "pause"]
+- ["13RNTrackPlayer05AudioB0C", "playImmediately"]
+- ["13RNTrackPlayer05AudioB0C", "stop"]
+- ["13RNTrackPlayer05AudioB0C", "seek"]
+- ["13RNTrackPlayer05AudioB0C", "seekToSeekableRangeStart"]
+- ["13RNTrackPlayer05AudioB0C", "seekToSeekableRangeEnd"]
+provides-dynamic-lookup:
+- "pause"
+- "playImmediately"
+- "resume"
+- "seek"
+- "seekToSeekableRangeEnd"
+- "seekToSeekableRangeStart"
+- "stop"
+depends-top-level:
+- !private "!"
+- !private "&&"
+- !private "+"
+- !private "-"
+- !private "<"
+- !private "<="
+- !private "=="
+- !private ">"
+- !private ">="
+- "AssignmentPrecedence"
+- "AudioPlayer"
+- "Bool"
+- "CMTime"
+- "TimeInterval"
+- "Void"
+- !private "kCMTimePositiveInfinity"
+- !private "max"
+- !private "min"
+- !private "||"
+depends-member:
+- !private ["So8AVPlayerC", "currentItem"]
+- !private ["So8AVPlayerC", "playImmediately"]
+- !private ["So8AVPlayerC", "rate"]
+- !private ["So8AVPlayerC", "replaceCurrentItem"]
+- !private ["So8AVPlayerC", "seek"]
+- !private ["So12AVPlayerItemC", "status"]
+- !private ["SC18AVPlayerItemStatusO", "readyToPlay"]
+- ["13RNTrackPlayer05AudioB0C", "Bool"]
+- ["13RNTrackPlayer05AudioB0C", "CMTime"]
+- ["13RNTrackPlayer05AudioB0C", "TimeInterval"]
+- ["13RNTrackPlayer05AudioB0C", "Void"]
+- !private ["13RNTrackPlayer05AudioB0C", "backgroundHandler"]
+- !private ["13RNTrackPlayer05AudioB0C", "currentItem"]
+- !private ["13RNTrackPlayer05AudioB0C", "currentItemSeekableRange"]
+- !private ["13RNTrackPlayer05AudioB0C", "kCMTimePositiveInfinity"]
+- !private ["13RNTrackPlayer05AudioB0C", "max"]
+- !private ["13RNTrackPlayer05AudioB0C", "min"]
+- ["13RNTrackPlayer05AudioB0C", "pause"]
+- !private ["13RNTrackPlayer05AudioB0C", "pausedForInterruption"]
+- ["13RNTrackPlayer05AudioB0C", "playImmediately"]
+- !private ["13RNTrackPlayer05AudioB0C", "player"]
+- !private ["13RNTrackPlayer05AudioB0C", "rate"]
+- ["13RNTrackPlayer05AudioB0C", "resume"]
+- !private ["13RNTrackPlayer05AudioB0C", "retryEventProducer"]
+- ["13RNTrackPlayer05AudioB0C", "seek"]
+- !private ["13RNTrackPlayer05AudioB0C", "seekSafely"]
+- ["13RNTrackPlayer05AudioB0C", "seekToSeekableRangeEnd"]
+- ["13RNTrackPlayer05AudioB0C", "seekToSeekableRangeStart"]
+- !private ["13RNTrackPlayer05AudioB0C", "setAudioSession"]
+- !private ["13RNTrackPlayer05AudioB0C", "state"]
+- ["13RNTrackPlayer05AudioB0C", "stop"]
+- !private ["13RNTrackPlayer05AudioB0C", "updateNowPlayingInfoCenter"]
+- !private ["13RNTrackPlayer05AudioB5StateO", "isBuffering"]
+- !private ["13RNTrackPlayer05AudioB5StateO", "isPlaying"]
+- !private ["13RNTrackPlayer05AudioB5StateO", "paused"]
+- !private ["13RNTrackPlayer05AudioB5StateO", "playing"]
+- !private ["13RNTrackPlayer05AudioB5StateO", "stopped"]
+- !private ["13RNTrackPlayer17BackgroundHandlerC", "beginBackgroundTask"]
+- !private ["13RNTrackPlayer17BackgroundHandlerC", "endBackgroundTask"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["SC6CMTimeV", "init"]
+- !private ["s7CVarArgP", "CMTime"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "backgroundHandler"]
+- !private ["s7CVarArgP", "beginBackgroundTask"]
+- !private ["s7CVarArgP", "currentItem"]
+- !private ["s7CVarArgP", "currentItemSeekableRange"]
+- !private ["s7CVarArgP", "endBackgroundTask"]
+- !private ["s7CVarArgP", "kCMTimePositiveInfinity"]
+- !private ["s7CVarArgP", "max"]
+- !private ["s7CVarArgP", "min"]
+- !private ["s7CVarArgP", "pausedForInterruption"]
+- !private ["s7CVarArgP", "playImmediately"]
+- !private ["s7CVarArgP", "player"]
+- !private ["s7CVarArgP", "rate"]
+- !private ["s7CVarArgP", "replaceCurrentItem"]
+- !private ["s7CVarArgP", "retryEventProducer"]
+- !private ["s7CVarArgP", "seek"]
+- !private ["s7CVarArgP", "seekSafely"]
+- !private ["s7CVarArgP", "seekToSeekableRangeEnd"]
+- !private ["s7CVarArgP", "seekToSeekableRangeStart"]
+- !private ["s7CVarArgP", "setAudioSession"]
+- !private ["s7CVarArgP", "startProducingEvents"]
+- !private ["s7CVarArgP", "state"]
+- !private ["s7CVarArgP", "status"]
+- !private ["s7CVarArgP", "stopProducingEvents"]
+- !private ["s7CVarArgP", "updateNowPlayingInfoCenter"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "CMTime"]
+- !private ["s28CustomDebugStringConvertibleP", "backgroundHandler"]
+- !private ["s28CustomDebugStringConvertibleP", "beginBackgroundTask"]
+- !private ["s28CustomDebugStringConvertibleP", "currentItem"]
+- !private ["s28CustomDebugStringConvertibleP", "currentItemSeekableRange"]
+- !private ["s28CustomDebugStringConvertibleP", "endBackgroundTask"]
+- !private ["s28CustomDebugStringConvertibleP", "kCMTimePositiveInfinity"]
+- !private ["s28CustomDebugStringConvertibleP", "max"]
+- !private ["s28CustomDebugStringConvertibleP", "min"]
+- !private ["s28CustomDebugStringConvertibleP", "pausedForInterruption"]
+- !private ["s28CustomDebugStringConvertibleP", "playImmediately"]
+- !private ["s28CustomDebugStringConvertibleP", "player"]
+- !private ["s28CustomDebugStringConvertibleP", "rate"]
+- !private ["s28CustomDebugStringConvertibleP", "readyToPlay"]
+- !private ["s28CustomDebugStringConvertibleP", "replaceCurrentItem"]
+- !private ["s28CustomDebugStringConvertibleP", "retryEventProducer"]
+- !private ["s28CustomDebugStringConvertibleP", "seek"]
+- !private ["s28CustomDebugStringConvertibleP", "seekSafely"]
+- !private ["s28CustomDebugStringConvertibleP", "seekToSeekableRangeEnd"]
+- !private ["s28CustomDebugStringConvertibleP", "seekToSeekableRangeStart"]
+- !private ["s28CustomDebugStringConvertibleP", "setAudioSession"]
+- !private ["s28CustomDebugStringConvertibleP", "startProducingEvents"]
+- !private ["s28CustomDebugStringConvertibleP", "state"]
+- !private ["s28CustomDebugStringConvertibleP", "status"]
+- !private ["s28CustomDebugStringConvertibleP", "stopProducingEvents"]
+- !private ["s28CustomDebugStringConvertibleP", "updateNowPlayingInfoCenter"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "readyToPlay"]
+- !private ["s23CustomStringConvertibleP", "CMTime"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "backgroundHandler"]
+- !private ["s23CustomStringConvertibleP", "beginBackgroundTask"]
+- !private ["s23CustomStringConvertibleP", "currentItem"]
+- !private ["s23CustomStringConvertibleP", "currentItemSeekableRange"]
+- !private ["s23CustomStringConvertibleP", "endBackgroundTask"]
+- !private ["s23CustomStringConvertibleP", "kCMTimePositiveInfinity"]
+- !private ["s23CustomStringConvertibleP", "max"]
+- !private ["s23CustomStringConvertibleP", "min"]
+- !private ["s23CustomStringConvertibleP", "pausedForInterruption"]
+- !private ["s23CustomStringConvertibleP", "playImmediately"]
+- !private ["s23CustomStringConvertibleP", "player"]
+- !private ["s23CustomStringConvertibleP", "rate"]
+- !private ["s23CustomStringConvertibleP", "replaceCurrentItem"]
+- !private ["s23CustomStringConvertibleP", "retryEventProducer"]
+- !private ["s23CustomStringConvertibleP", "seek"]
+- !private ["s23CustomStringConvertibleP", "seekSafely"]
+- !private ["s23CustomStringConvertibleP", "seekToSeekableRangeEnd"]
+- !private ["s23CustomStringConvertibleP", "seekToSeekableRangeStart"]
+- !private ["s23CustomStringConvertibleP", "setAudioSession"]
+- !private ["s23CustomStringConvertibleP", "startProducingEvents"]
+- !private ["s23CustomStringConvertibleP", "state"]
+- !private ["s23CustomStringConvertibleP", "status"]
+- !private ["s23CustomStringConvertibleP", "stopProducingEvents"]
+- !private ["s23CustomStringConvertibleP", "updateNowPlayingInfoCenter"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "readyToPlay"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "readyToPlay"]
+- !private ["s9EquatableP", "CMTime"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "backgroundHandler"]
+- !private ["s9EquatableP", "beginBackgroundTask"]
+- !private ["s9EquatableP", "currentItem"]
+- !private ["s9EquatableP", "currentItemSeekableRange"]
+- !private ["s9EquatableP", "endBackgroundTask"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "isBuffering"]
+- !private ["s9EquatableP", "isPlaying"]
+- !private ["s9EquatableP", "kCMTimePositiveInfinity"]
+- !private ["s9EquatableP", "max"]
+- !private ["s9EquatableP", "min"]
+- !private ["s9EquatableP", "paused"]
+- !private ["s9EquatableP", "pausedForInterruption"]
+- !private ["s9EquatableP", "playImmediately"]
+- !private ["s9EquatableP", "player"]
+- !private ["s9EquatableP", "playing"]
+- !private ["s9EquatableP", "rate"]
+- !private ["s9EquatableP", "readyToPlay"]
+- !private ["s9EquatableP", "replaceCurrentItem"]
+- !private ["s9EquatableP", "retryEventProducer"]
+- !private ["s9EquatableP", "seek"]
+- !private ["s9EquatableP", "seekSafely"]
+- !private ["s9EquatableP", "seekToSeekableRangeEnd"]
+- !private ["s9EquatableP", "seekToSeekableRangeStart"]
+- !private ["s9EquatableP", "setAudioSession"]
+- !private ["s9EquatableP", "startProducingEvents"]
+- !private ["s9EquatableP", "state"]
+- !private ["s9EquatableP", "status"]
+- !private ["s9EquatableP", "stopProducingEvents"]
+- !private ["s9EquatableP", "stopped"]
+- !private ["s9EquatableP", "updateNowPlayingInfoCenter"]
+- !private ["13RNTrackPlayer13EventListenerP", "CMTime"]
+- !private ["13RNTrackPlayer13EventListenerP", "backgroundHandler"]
+- !private ["13RNTrackPlayer13EventListenerP", "currentItem"]
+- !private ["13RNTrackPlayer13EventListenerP", "currentItemSeekableRange"]
+- !private ["13RNTrackPlayer13EventListenerP", "kCMTimePositiveInfinity"]
+- !private ["13RNTrackPlayer13EventListenerP", "max"]
+- !private ["13RNTrackPlayer13EventListenerP", "min"]
+- !private ["13RNTrackPlayer13EventListenerP", "pausedForInterruption"]
+- !private ["13RNTrackPlayer13EventListenerP", "player"]
+- !private ["13RNTrackPlayer13EventListenerP", "rate"]
+- !private ["13RNTrackPlayer13EventListenerP", "retryEventProducer"]
+- !private ["13RNTrackPlayer13EventListenerP", "seekSafely"]
+- !private ["13RNTrackPlayer13EventListenerP", "seekToSeekableRangeEnd"]
+- !private ["13RNTrackPlayer13EventListenerP", "seekToSeekableRangeStart"]
+- !private ["13RNTrackPlayer13EventListenerP", "setAudioSession"]
+- !private ["13RNTrackPlayer13EventListenerP", "state"]
+- !private ["13RNTrackPlayer13EventListenerP", "updateNowPlayingInfoCenter"]
+- !private ["13RNTrackPlayer13EventProducerP", "startProducingEvents"]
+- !private ["13RNTrackPlayer13EventProducerP", "stopProducingEvents"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s23ExpressibleByNilLiteralP", "readyToPlay"]
+- !private ["s8HashableP", "CMTime"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "backgroundHandler"]
+- !private ["s8HashableP", "beginBackgroundTask"]
+- !private ["s8HashableP", "currentItem"]
+- !private ["s8HashableP", "currentItemSeekableRange"]
+- !private ["s8HashableP", "endBackgroundTask"]
+- !private ["s8HashableP", "kCMTimePositiveInfinity"]
+- !private ["s8HashableP", "max"]
+- !private ["s8HashableP", "min"]
+- !private ["s8HashableP", "pausedForInterruption"]
+- !private ["s8HashableP", "playImmediately"]
+- !private ["s8HashableP", "player"]
+- !private ["s8HashableP", "rate"]
+- !private ["s8HashableP", "readyToPlay"]
+- !private ["s8HashableP", "replaceCurrentItem"]
+- !private ["s8HashableP", "retryEventProducer"]
+- !private ["s8HashableP", "seek"]
+- !private ["s8HashableP", "seekSafely"]
+- !private ["s8HashableP", "seekToSeekableRangeEnd"]
+- !private ["s8HashableP", "seekToSeekableRangeStart"]
+- !private ["s8HashableP", "setAudioSession"]
+- !private ["s8HashableP", "startProducingEvents"]
+- !private ["s8HashableP", "state"]
+- !private ["s8HashableP", "status"]
+- !private ["s8HashableP", "stopProducingEvents"]
+- !private ["s8HashableP", "updateNowPlayingInfoCenter"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["So9NSCopyingP", "status"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "CMTime"]
+- ["So8NSObjectC", "TimeInterval"]
+- ["So8NSObjectC", "Void"]
+- !private ["So8NSObjectC", "backgroundHandler"]
+- !private ["So8NSObjectC", "beginBackgroundTask"]
+- !private ["So8NSObjectC", "currentItem"]
+- !private ["So8NSObjectC", "currentItemSeekableRange"]
+- !private ["So8NSObjectC", "endBackgroundTask"]
+- !private ["So8NSObjectC", "kCMTimePositiveInfinity"]
+- !private ["So8NSObjectC", "max"]
+- !private ["So8NSObjectC", "min"]
+- ["So8NSObjectC", "pause"]
+- !private ["So8NSObjectC", "pausedForInterruption"]
+- ["So8NSObjectC", "playImmediately"]
+- !private ["So8NSObjectC", "player"]
+- !private ["So8NSObjectC", "rate"]
+- !private ["So8NSObjectC", "replaceCurrentItem"]
+- ["So8NSObjectC", "resume"]
+- !private ["So8NSObjectC", "retryEventProducer"]
+- ["So8NSObjectC", "seek"]
+- ["So8NSObjectC", "seekSafely"]
+- ["So8NSObjectC", "seekToSeekableRangeEnd"]
+- ["So8NSObjectC", "seekToSeekableRangeStart"]
+- !private ["So8NSObjectC", "setAudioSession"]
+- !private ["So8NSObjectC", "startProducingEvents"]
+- !private ["So8NSObjectC", "state"]
+- !private ["So8NSObjectC", "status"]
+- ["So8NSObjectC", "stop"]
+- !private ["So8NSObjectC", "stopProducingEvents"]
+- !private ["So8NSObjectC", "updateNowPlayingInfoCenter"]
+- !private ["So16NSObjectProtocolP", "CMTime"]
+- !private ["So16NSObjectProtocolP", "backgroundHandler"]
+- !private ["So16NSObjectProtocolP", "beginBackgroundTask"]
+- !private ["So16NSObjectProtocolP", "currentItem"]
+- !private ["So16NSObjectProtocolP", "currentItemSeekableRange"]
+- !private ["So16NSObjectProtocolP", "endBackgroundTask"]
+- !private ["So16NSObjectProtocolP", "kCMTimePositiveInfinity"]
+- !private ["So16NSObjectProtocolP", "max"]
+- !private ["So16NSObjectProtocolP", "min"]
+- !private ["So16NSObjectProtocolP", "pausedForInterruption"]
+- !private ["So16NSObjectProtocolP", "playImmediately"]
+- !private ["So16NSObjectProtocolP", "player"]
+- !private ["So16NSObjectProtocolP", "rate"]
+- !private ["So16NSObjectProtocolP", "replaceCurrentItem"]
+- !private ["So16NSObjectProtocolP", "retryEventProducer"]
+- !private ["So16NSObjectProtocolP", "seek"]
+- !private ["So16NSObjectProtocolP", "seekSafely"]
+- !private ["So16NSObjectProtocolP", "seekToSeekableRangeEnd"]
+- !private ["So16NSObjectProtocolP", "seekToSeekableRangeStart"]
+- !private ["So16NSObjectProtocolP", "setAudioSession"]
+- !private ["So16NSObjectProtocolP", "startProducingEvents"]
+- !private ["So16NSObjectProtocolP", "state"]
+- !private ["So16NSObjectProtocolP", "status"]
+- !private ["So16NSObjectProtocolP", "stopProducingEvents"]
+- !private ["So16NSObjectProtocolP", "updateNowPlayingInfoCenter"]
+- !private ["Sq", "readyToPlay"]
+- !private ["s16RawRepresentableP", "readyToPlay"]
+- !private ["13RNTrackPlayer18RetryEventProducerC", "deinit"]
+- !private ["13RNTrackPlayer18RetryEventProducerC", "startProducingEvents"]
+- !private ["13RNTrackPlayer18RetryEventProducerC", "stopProducingEvents"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CMTime"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "backgroundHandler"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "beginBackgroundTask"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "currentItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "currentItemSeekableRange"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "endBackgroundTask"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "kCMTimePositiveInfinity"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "max"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "min"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pausedForInterruption"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "playImmediately"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "player"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "replaceCurrentItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "retryEventProducer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "seek"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "seekSafely"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "seekToSeekableRangeEnd"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "seekToSeekableRangeStart"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setAudioSession"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "startProducingEvents"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "state"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "status"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "stopProducingEvents"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "updateNowPlayingInfoCenter"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "readyToPlay"]
+- !private ["s26_OptionalNilComparisonTypeV", "readyToPlay"]
+depends-nominal:
+- !private "So8AVPlayerC"
+- !private "So12AVPlayerItemC"
+- !private "SC18AVPlayerItemStatusO"
+- "13RNTrackPlayer05AudioB0C"
+- !private "13RNTrackPlayer05AudioB5StateO"
+- !private "13RNTrackPlayer17BackgroundHandlerC"
+- !private "Sb"
+- !private "SC6CMTimeV"
+- !private "s7CVarArgP"
+- !private "s10ComparableP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- !private "13RNTrackPlayer13EventListenerP"
+- !private "13RNTrackPlayer13EventProducerP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "So9NSCopyingP"
+- "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "Sq"
+- !private "s16RawRepresentableP"
+- !private "13RNTrackPlayer18RetryEventProducerC"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_OptionalNilComparisonTypeV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MediaPlayer.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/mac/Desktop/React-native-projects/check/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h"
+- "/Users/mac/Desktop/React-native-projects/check/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h"
+- "/Users/mac/Desktop/React-native-projects/check/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h"
+- "/Users/mac/Desktop/React-native-projects/check/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h"
+- "/Users/mac/Desktop/React-native-projects/check/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h"
+- "/Users/mac/Desktop/React-native-projects/check/node_modules/react-native-track-player/ios/RNTrackPlayer/Support/RNTrackPlayer-Bridging-Header.h"
+- "/Users/mac/Desktop/React-native-projects/check/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h"
+- "/Users/mac/Desktop/React-native-projects/check/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTEventEmitter.h"
+- "/Users/mac/Desktop/React-native-projects/check/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVFoundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/MediaPlayer.framework/Headers/MediaPlayer.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.4.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.apinotes"
+interface-hash: "8ac842f4b4c7b386e2a13dbd2aba783e"
